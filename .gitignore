@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# NEW: Firebase settings and secrets, never upload these.
+# (.gitignore can't have comments at the end of a line, so the NEW mark is up here.)
+.env
+.env.*
+!.env.example
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
