@@ -1,47 +1,21 @@
-// NEW FILE
-// Lists the games. Each one becomes a real link when we build it (Stages 6-10).
+// Lists the games. Each card opens that game's page. // NEW: cards are now links
 
-const games = [
-  {
-    name: 'Roll and Read',
-    about: 'Roll the die, read a word in that row.',
-    howToUse: 'On screen or print',
-  },
-  {
-    name: 'Bingo',
-    about: 'Cards with a free space, plus a caller list.',
-    howToUse: 'On screen or print',
-  },
-  {
-    name: 'Tic Tac Toe',
-    about: 'Read the word to claim the square.',
-    howToUse: 'On screen or print',
-  },
-  {
-    name: 'Ups and Downs',
-    about: 'A word on every space. Arrows send you up or down.',
-    howToUse: 'On screen or print',
-  },
-  {
-    name: 'Word Quiz Board',
-    about: 'Categories by spelling-sound, point values, team scores.',
-    howToUse: 'On screen only',
-  },
-]
+import { Link } from 'react-router' // NEW
+import { GAMES } from '../games/gameList.js' // NEW: the list moved to its own file
 
 function GamesPage() {
   return (
     <section>
       <h1>Games</h1>
-      <p>Pick a game. You&apos;ll choose the level and lesson next.</p>
+      <p>Pick a game. You&apos;ll choose the level and lessons next.</p>
 
       <div className="card-grid">
-        {games.map((game) => (
-          <div key={game.name} className="card card-disabled">
+        {GAMES.map((game) => (
+          <Link key={game.id} to={`/games/${game.id}`} className="card"> {/* NEW */}
             <h2>{game.name}</h2>
             <p>{game.about}</p>
-            <p className="card-note">{game.howToUse} · Coming soon</p>
-          </div>
+            <p className="card-note">{game.printable ? 'On screen or print' : 'On screen only'}</p> {/* NEW */}
+          </Link>
         ))}
       </div>
     </section>

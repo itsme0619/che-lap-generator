@@ -1,0 +1,6131 @@
+{
+  "title": "SIPPS scope and sequence data for CHE LAP Generator",
+  "version": 1,
+  "note": "Lesson structure from the SIPPS Scope and Sequence (Center for the Collaborative Classroom). Word lists are original. Private: upload to Firestore only; never import into src/.",
+  "levels": [
+    {
+      "id": "beginning",
+      "name": "Beginning",
+      "items": [
+        {
+          "type": "lesson",
+          "id": "beginning-1a-1d",
+          "label": "1A–1D",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "s",
+              "label": "s",
+              "lettersOnly": true,
+              "words": [
+                "s"
+              ]
+            }
+          ],
+          "sightWords": [
+            "see",
+            "I"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-2a-2d",
+          "label": "2A–2D",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "the"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-3",
+          "label": "3",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "n",
+              "label": "n",
+              "lettersOnly": true,
+              "words": [
+                "n"
+              ]
+            }
+          ],
+          "sightWords": [
+            "you"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-4",
+          "label": "4",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "can"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-5",
+          "label": "5",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "me"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-6",
+          "label": "6",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "t",
+              "label": "t",
+              "lettersOnly": true,
+              "words": [
+                "t"
+              ]
+            }
+          ],
+          "sightWords": [
+            "and"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-7",
+          "label": "7",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "we"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-8",
+          "label": "8",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "m",
+              "label": "m",
+              "lettersOnly": true,
+              "words": [
+                "m"
+              ]
+            }
+          ],
+          "sightWords": [
+            "on"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-9",
+          "label": "9",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a",
+              "label": "a_",
+              "words": [
+                "at",
+                "am",
+                "an",
+                "ant",
+                "sat",
+                "mat",
+                "man",
+                "tan",
+                "mast",
+                "mats"
+              ]
+            }
+          ],
+          "sightWords": [
+            "is"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-10",
+          "label": "10",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "yes"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "beginning-mt1",
+          "label": "Mastery Test 1",
+          "covers": [
+            "beginning-1a-1d",
+            "beginning-2a-2d",
+            "beginning-3",
+            "beginning-4",
+            "beginning-5",
+            "beginning-6",
+            "beginning-7",
+            "beginning-8",
+            "beginning-9",
+            "beginning-10"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-11",
+          "label": "11",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a",
+              "label": "a_",
+              "words": [
+                "at",
+                "am",
+                "an",
+                "ant",
+                "sat",
+                "mat",
+                "man",
+                "tan",
+                "mast",
+                "mats"
+              ]
+            }
+          ],
+          "sightWords": [
+            "are"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-12",
+          "label": "12",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "no"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-13",
+          "label": "13",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "isn't"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-14",
+          "label": "14",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "i",
+              "label": "i_",
+              "words": [
+                "it",
+                "in",
+                "sit",
+                "sits",
+                "tin",
+                "mint",
+                "mist",
+                "tint",
+                "stint"
+              ]
+            }
+          ],
+          "sightWords": [
+            "he"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-15",
+          "label": "15",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "r",
+              "label": "r",
+              "words": [
+                "rat",
+                "rats",
+                "ram",
+                "ran",
+                "rim",
+                "rant",
+                "trim",
+                "tram"
+              ]
+            }
+          ],
+          "sightWords": [
+            "she"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-16",
+          "label": "16",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "get"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-17",
+          "label": "17",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "can't"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-18",
+          "label": "18",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "under"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-19",
+          "label": "19",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "f",
+              "label": "f",
+              "words": [
+                "fat",
+                "fan",
+                "fin",
+                "fit",
+                "fits",
+                "fast",
+                "fist",
+                "raft",
+                "sift",
+                "rift"
+              ]
+            }
+          ],
+          "sightWords": [
+            "to"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-20",
+          "label": "20",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "u",
+              "label": "u_",
+              "words": [
+                "us",
+                "sun",
+                "run",
+                "nut",
+                "fun",
+                "sum",
+                "must",
+                "rust",
+                "stun",
+                "runt",
+                "trust",
+                "strut",
+                "tuft"
+              ]
+            }
+          ],
+          "sightWords": [
+            "was"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "beginning-mt2",
+          "label": "Mastery Test 2",
+          "covers": [
+            "beginning-11",
+            "beginning-12",
+            "beginning-13",
+            "beginning-14",
+            "beginning-15",
+            "beginning-16",
+            "beginning-17",
+            "beginning-18",
+            "beginning-19",
+            "beginning-20"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-21",
+          "label": "21",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "h",
+              "label": "h",
+              "words": [
+                "hat",
+                "ham",
+                "him",
+                "hit",
+                "hut",
+                "hum",
+                "hint",
+                "hunt",
+                "hats"
+              ]
+            }
+          ],
+          "sightWords": [
+            "wasn't"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-22",
+          "label": "22",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "go"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-23",
+          "label": "23",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "down"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-24",
+          "label": "24",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "saw"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-25",
+          "label": "25",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "d",
+              "label": "d",
+              "words": [
+                "dad",
+                "sad",
+                "mad",
+                "had",
+                "hid",
+                "did",
+                "rid",
+                "mud",
+                "dim",
+                "dust",
+                "hand",
+                "sand",
+                "stand",
+                "fund",
+                "drum",
+                "drift"
+              ]
+            }
+          ],
+          "sightWords": [
+            "my"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-26",
+          "label": "26",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "o",
+              "label": "o_",
+              "words": [
+                "on",
+                "not",
+                "hot",
+                "dot",
+                "rot",
+                "nod",
+                "rod",
+                "mom",
+                "fond",
+                "frost",
+                "trot"
+              ]
+            }
+          ],
+          "sightWords": [
+            "where"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-27",
+          "label": "27",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "c",
+              "label": "c",
+              "words": [
+                "cat",
+                "can",
+                "cut",
+                "cot",
+                "cast",
+                "cost",
+                "scan",
+                "crust",
+                "cram"
+              ]
+            },
+            {
+              "id": "k",
+              "label": "k",
+              "words": [
+                "kit",
+                "kid",
+                "kin",
+                "skit",
+                "skin",
+                "skid",
+                "kids"
+              ]
+            },
+            {
+              "id": "ck",
+              "label": "_ck",
+              "words": [
+                "sack",
+                "rack",
+                "tack",
+                "sick",
+                "kick",
+                "tick",
+                "duck",
+                "stuck",
+                "stack",
+                "track",
+                "trick",
+                "stick",
+                "rock",
+                "sock",
+                "dock"
+              ]
+            }
+          ],
+          "sightWords": [
+            "here",
+            "by"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-28",
+          "label": "28",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "all",
+              "label": "all",
+              "words": [
+                "all",
+                "tall",
+                "fall",
+                "hall",
+                "mall",
+                "call",
+                "stall",
+                "small"
+              ]
+            }
+          ],
+          "sightWords": [
+            "they",
+            "little"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-29",
+          "label": "29",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "put"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-30",
+          "label": "30",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "b",
+              "label": "b",
+              "words": [
+                "bat",
+                "bad",
+                "bit",
+                "bin",
+                "bun",
+                "but",
+                "bus",
+                "bud",
+                "cab",
+                "crab",
+                "scab",
+                "rib",
+                "tub",
+                "sub",
+                "rub",
+                "stub",
+                "brim",
+                "back",
+                "bond",
+                "ball"
+              ]
+            }
+          ],
+          "sightWords": [
+            "what",
+            "do"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "beginning-mt3",
+          "label": "Mastery Test 3",
+          "covers": [
+            "beginning-21",
+            "beginning-22",
+            "beginning-23",
+            "beginning-24",
+            "beginning-25",
+            "beginning-26",
+            "beginning-27",
+            "beginning-28",
+            "beginning-29",
+            "beginning-30"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-31",
+          "label": "31",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "like",
+            "have"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-32",
+          "label": "32",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "p",
+              "label": "p",
+              "words": [
+                "pat",
+                "pan",
+                "pin",
+                "pit",
+                "pot",
+                "pup",
+                "cap",
+                "map",
+                "nap",
+                "tap",
+                "sip",
+                "tip",
+                "hip",
+                "dip",
+                "rip",
+                "top",
+                "hop",
+                "mop",
+                "cup",
+                "spin",
+                "spot",
+                "trip",
+                "drip",
+                "snap",
+                "stop",
+                "pump",
+                "camp",
+                "damp",
+                "stamp"
+              ]
+            }
+          ],
+          "sightWords": [
+            "home",
+            "said"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-33",
+          "label": "33",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "e",
+              "label": "e_",
+              "words": [
+                "bed",
+                "red",
+                "ten",
+                "hen",
+                "pen",
+                "net",
+                "pet",
+                "set",
+                "men",
+                "fed",
+                "step",
+                "nest",
+                "rest",
+                "best",
+                "test",
+                "desk",
+                "deck",
+                "neck",
+                "send",
+                "bend",
+                "tent",
+                "dent"
+              ]
+            }
+          ],
+          "sightWords": [
+            "her",
+            "of"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-34",
+          "label": "34",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "g",
+              "label": "g",
+              "words": [
+                "gap",
+                "gas",
+                "got",
+                "gum",
+                "bag",
+                "big",
+                "dig",
+                "dog",
+                "hug",
+                "rug",
+                "bug",
+                "mug",
+                "tag",
+                "rag",
+                "pig",
+                "frog",
+                "grab",
+                "grin",
+                "drag",
+                "snug",
+                "gift",
+                "egg"
+              ]
+            }
+          ],
+          "sightWords": [
+            "out",
+            "name"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-35",
+          "label": "35",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "some",
+            "come",
+            "make"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-36",
+          "label": "36",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "l",
+              "label": "l",
+              "words": [
+                "lap",
+                "lid",
+                "lip",
+                "let",
+                "lot",
+                "leg",
+                "log",
+                "slip",
+                "slap",
+                "sled",
+                "flag",
+                "flat",
+                "clip",
+                "clap",
+                "plan",
+                "plum",
+                "glad",
+                "belt",
+                "held",
+                "lamp",
+                "lift",
+                "last",
+                "lost"
+              ]
+            }
+          ],
+          "sightWords": [
+            "say",
+            "says"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-37",
+          "label": "37",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "be",
+            "look"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-38",
+          "label": "38",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "there",
+            "over"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-39",
+          "label": "39",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "w",
+              "label": "w",
+              "words": [
+                "wet",
+                "win",
+                "wag",
+                "web",
+                "wig",
+                "swim",
+                "swam",
+                "twin",
+                "went",
+                "west",
+                "wind",
+                "wilt"
+              ]
+            }
+          ],
+          "sightWords": [
+            "want",
+            "water"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-40",
+          "label": "40",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "from",
+            "for"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "beginning-mt4",
+          "label": "Mastery Test 4",
+          "covers": [
+            "beginning-31",
+            "beginning-32",
+            "beginning-33",
+            "beginning-34",
+            "beginning-35",
+            "beginning-36",
+            "beginning-37",
+            "beginning-38",
+            "beginning-39",
+            "beginning-40"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-41",
+          "label": "41",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "th-2",
+              "label": "th(2)",
+              "words": [
+                "thin",
+                "thud",
+                "thick",
+                "thump",
+                "path",
+                "bath",
+                "math",
+                "moth",
+                "cloth",
+                "with",
+                "then",
+                "them",
+                "that",
+                "this",
+                "than"
+              ]
+            }
+          ],
+          "sightWords": [
+            "find",
+            "people"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-42",
+          "label": "42",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "again",
+            "many"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-43",
+          "label": "43",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "v",
+              "label": "v",
+              "words": [
+                "van",
+                "vet",
+                "vest",
+                "vent",
+                "vast",
+                "velvet"
+              ]
+            }
+          ],
+          "sightWords": [
+            "your",
+            "very"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-44",
+          "label": "44",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "sh",
+              "label": "sh",
+              "words": [
+                "ship",
+                "shop",
+                "shut",
+                "shed",
+                "shin",
+                "shelf",
+                "fish",
+                "dish",
+                "wish",
+                "cash",
+                "mash",
+                "rush",
+                "brush",
+                "crash",
+                "fresh",
+                "flash"
+              ]
+            }
+          ],
+          "sightWords": [
+            "were",
+            "could"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-45",
+          "label": "45",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "should",
+            "would"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-46",
+          "label": "46",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "x",
+              "label": "x",
+              "words": [
+                "ox",
+                "box",
+                "fox",
+                "fix",
+                "mix",
+                "six",
+                "wax",
+                "tax",
+                "next"
+              ]
+            },
+            {
+              "id": "old",
+              "label": "old",
+              "words": [
+                "old",
+                "cold",
+                "gold",
+                "hold",
+                "bold",
+                "told",
+                "fold",
+                "sold",
+                "mold"
+              ]
+            }
+          ],
+          "sightWords": [
+            "one",
+            "two"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-47",
+          "label": "47",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ch",
+              "label": "ch",
+              "words": [
+                "chip",
+                "chop",
+                "chin",
+                "chat",
+                "chest",
+                "much",
+                "such",
+                "rich",
+                "lunch",
+                "bunch",
+                "pinch",
+                "munch"
+              ]
+            },
+            {
+              "id": "tch",
+              "label": "_tch",
+              "words": [
+                "catch",
+                "match",
+                "patch",
+                "latch",
+                "itch",
+                "pitch",
+                "fetch",
+                "ditch",
+                "notch",
+                "hutch",
+                "sketch"
+              ]
+            }
+          ],
+          "sightWords": [
+            "both",
+            "good"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-48",
+          "label": "48",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "does",
+            "other"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-49",
+          "label": "49",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "j",
+              "label": "j",
+              "words": [
+                "jam",
+                "jet",
+                "job",
+                "jog",
+                "jug",
+                "jump",
+                "just",
+                "jab"
+              ]
+            },
+            {
+              "id": "dge",
+              "label": "_dge",
+              "words": [
+                "edge",
+                "badge",
+                "ledge",
+                "ridge",
+                "fudge",
+                "judge",
+                "budge",
+                "bridge",
+                "hedge",
+                "wedge",
+                "lodge",
+                "nudge"
+              ]
+            }
+          ],
+          "sightWords": [
+            "woman",
+            "women"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-50",
+          "label": "50",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "y",
+              "label": "y",
+              "words": [
+                "yes",
+                "yet",
+                "yell",
+                "yam",
+                "yum",
+                "yak",
+                "yelp"
+              ]
+            }
+          ],
+          "sightWords": [
+            "every",
+            "around"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "beginning-mt5",
+          "label": "Mastery Test 5",
+          "covers": [
+            "beginning-41",
+            "beginning-42",
+            "beginning-43",
+            "beginning-44",
+            "beginning-45",
+            "beginning-46",
+            "beginning-47",
+            "beginning-48",
+            "beginning-49",
+            "beginning-50"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-51",
+          "label": "51",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "z",
+              "label": "z",
+              "words": [
+                "zip",
+                "zap",
+                "zest",
+                "zigzag",
+                "buzz",
+                "fizz",
+                "jazz"
+              ]
+            }
+          ],
+          "sightWords": [
+            "toward",
+            "their"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-52",
+          "label": "52",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "wh",
+              "label": "wh",
+              "words": [
+                "when",
+                "which",
+                "whip",
+                "whiz",
+                "whisk",
+                "whack",
+                "wham",
+                "whim"
+              ]
+            }
+          ],
+          "sightWords": [
+            "children",
+            "heard"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-53",
+          "label": "53",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ing",
+              "label": "_ing",
+              "words": [
+                "sing",
+                "ring",
+                "king",
+                "wing",
+                "thing",
+                "bring",
+                "swing",
+                "sting",
+                "fling",
+                "string",
+                "fishing",
+                "jumping",
+                "resting",
+                "helping",
+                "camping"
+              ]
+            }
+          ],
+          "sightWords": [
+            "give",
+            "live(2)"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-54",
+          "label": "54",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "qu",
+              "label": "qu_",
+              "words": [
+                "quit",
+                "quick",
+                "quiz",
+                "quack",
+                "quilt",
+                "quest",
+                "squid",
+                "squish"
+              ]
+            }
+          ],
+          "sightWords": []
+        },
+        {
+          "type": "lesson",
+          "id": "beginning-55",
+          "label": "55",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": []
+        },
+        {
+          "type": "masteryTest",
+          "id": "beginning-mt6",
+          "label": "Mastery Test 6",
+          "covers": [
+            "beginning-51",
+            "beginning-52",
+            "beginning-53",
+            "beginning-54",
+            "beginning-55"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension",
+      "name": "Extension",
+      "items": [
+        {
+          "type": "lesson",
+          "id": "extension-r1",
+          "label": "R1",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a",
+              "label": "a_",
+              "words": [
+                "cat",
+                "hat",
+                "mat",
+                "sat",
+                "bag",
+                "rag",
+                "map",
+                "cap",
+                "nap",
+                "jam",
+                "ham",
+                "van",
+                "fan",
+                "man",
+                "pan",
+                "tap",
+                "bat",
+                "dad",
+                "sad",
+                "wax"
+              ]
+            },
+            {
+              "id": "i",
+              "label": "i_",
+              "words": [
+                "big",
+                "dig",
+                "pig",
+                "wig",
+                "sit",
+                "hit",
+                "bit",
+                "fit",
+                "lid",
+                "rid",
+                "kid",
+                "hid",
+                "win",
+                "pin",
+                "tin",
+                "fin",
+                "dip",
+                "hip",
+                "lip",
+                "rip",
+                "six",
+                "mix",
+                "fix"
+              ]
+            }
+          ],
+          "sightWords": [
+            "the",
+            "I",
+            "a",
+            "see",
+            "he",
+            "be",
+            "she",
+            "we",
+            "me"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r2",
+          "label": "R2",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "o",
+              "label": "o_",
+              "words": [
+                "hot",
+                "pot",
+                "dot",
+                "not",
+                "got",
+                "cot",
+                "lot",
+                "mop",
+                "top",
+                "hop",
+                "pop",
+                "dog",
+                "log",
+                "fog",
+                "hog",
+                "jog",
+                "box",
+                "fox",
+                "rod",
+                "nod",
+                "job",
+                "rob",
+                "mom",
+                "on"
+              ]
+            }
+          ],
+          "sightWords": [
+            "no",
+            "so",
+            "go",
+            "my",
+            "by",
+            "why",
+            "fly",
+            "under"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r3",
+          "label": "R3",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "e",
+              "label": "e_",
+              "words": [
+                "bed",
+                "red",
+                "fed",
+                "led",
+                "hen",
+                "pen",
+                "ten",
+                "men",
+                "den",
+                "net",
+                "pet",
+                "set",
+                "wet",
+                "jet",
+                "let",
+                "get",
+                "beg",
+                "leg",
+                "peg",
+                "web",
+                "yes",
+                "vet"
+              ]
+            }
+          ],
+          "sightWords": [
+            "are",
+            "little",
+            "some",
+            "come",
+            "do",
+            "to",
+            "what",
+            "have"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r4",
+          "label": "R4",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "u",
+              "label": "u_",
+              "words": [
+                "bug",
+                "hug",
+                "mug",
+                "rug",
+                "jug",
+                "dug",
+                "tug",
+                "bun",
+                "fun",
+                "run",
+                "sun",
+                "cup",
+                "pup",
+                "cut",
+                "hut",
+                "nut",
+                "but",
+                "tub",
+                "rub",
+                "sub",
+                "cub",
+                "mud",
+                "bud",
+                "bus",
+                "yum"
+              ]
+            }
+          ],
+          "sightWords": [
+            "of",
+            "all",
+            "ball",
+            "call",
+            "small",
+            "from",
+            "here",
+            "you"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r5",
+          "label": "R5",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "want",
+            "for",
+            "put",
+            "out",
+            "our",
+            "day",
+            "way",
+            "play"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt1",
+          "label": "Mastery Test 1",
+          "covers": [
+            "extension-r1",
+            "extension-r2",
+            "extension-r3",
+            "extension-r4",
+            "extension-r5"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r6",
+          "label": "R6",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "th-2",
+              "label": "th(2)",
+              "words": [
+                "thin",
+                "thud",
+                "path",
+                "bath",
+                "math",
+                "moth",
+                "with",
+                "then",
+                "them",
+                "that",
+                "this",
+                "than"
+              ]
+            }
+          ],
+          "sightWords": [
+            "your",
+            "like",
+            "saw",
+            "old",
+            "cold",
+            "gold"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r7",
+          "label": "R7",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "was",
+            "one",
+            "does",
+            "said"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r8",
+          "label": "R8",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "sh",
+              "label": "sh",
+              "words": [
+                "ship",
+                "shop",
+                "shut",
+                "shed",
+                "shin",
+                "fish",
+                "dish",
+                "wish",
+                "cash",
+                "mash",
+                "rash",
+                "hush",
+                "mush",
+                "rush",
+                "gush"
+              ]
+            },
+            {
+              "id": "qu",
+              "label": "qu_",
+              "words": [
+                "quit",
+                "quiz",
+                "quip"
+              ]
+            }
+          ],
+          "sightWords": [
+            "down",
+            "her",
+            "they",
+            "says"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r9",
+          "label": "R9",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "find",
+            "over"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r10",
+          "label": "R10",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ch",
+              "label": "ch",
+              "words": [
+                "chip",
+                "chop",
+                "chin",
+                "chat",
+                "chug",
+                "much",
+                "such",
+                "rich"
+              ]
+            },
+            {
+              "id": "tch",
+              "label": "_tch",
+              "words": [
+                "catch",
+                "match",
+                "patch",
+                "latch",
+                "hatch",
+                "itch",
+                "pitch",
+                "ditch",
+                "witch",
+                "fetch",
+                "notch",
+                "hutch"
+              ]
+            }
+          ],
+          "sightWords": [
+            "any",
+            "many"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt2",
+          "label": "Mastery Test 2",
+          "covers": [
+            "extension-r6",
+            "extension-r7",
+            "extension-r8",
+            "extension-r9",
+            "extension-r10"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r11",
+          "label": "R11",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "where",
+            "there"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r12",
+          "label": "R12",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ck",
+              "label": "_ck",
+              "words": [
+                "back",
+                "sack",
+                "pack",
+                "rack",
+                "tack",
+                "sick",
+                "kick",
+                "lick",
+                "pick",
+                "tick",
+                "rock",
+                "sock",
+                "dock",
+                "lock",
+                "duck",
+                "luck",
+                "tuck",
+                "neck",
+                "deck",
+                "peck"
+              ]
+            },
+            {
+              "id": "dge",
+              "label": "_dge",
+              "words": [
+                "edge",
+                "badge",
+                "ledge",
+                "ridge",
+                "fudge",
+                "judge",
+                "budge",
+                "hedge",
+                "wedge",
+                "lodge",
+                "nudge",
+                "dodge"
+              ]
+            },
+            {
+              "id": "wh",
+              "label": "wh_",
+              "words": [
+                "when",
+                "which",
+                "whip",
+                "whiz",
+                "wham",
+                "whim"
+              ]
+            }
+          ],
+          "sightWords": [
+            "bird",
+            "goes"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r13",
+          "label": "R13",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": []
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r14",
+          "label": "R14",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ng",
+              "label": "_ng",
+              "words": [
+                "sing",
+                "ring",
+                "king",
+                "wing",
+                "thing",
+                "sang",
+                "rang",
+                "bang",
+                "hang",
+                "long",
+                "song",
+                "hung",
+                "sung",
+                "lung"
+              ]
+            },
+            {
+              "id": "ing-inflection",
+              "label": "_ing (inflection)",
+              "words": [
+                "fishing",
+                "rocking",
+                "kicking",
+                "packing",
+                "wishing",
+                "locking",
+                "ringing",
+                "singing",
+                "picking",
+                "mashing",
+                "rushing",
+                "checking",
+                "hanging"
+              ]
+            }
+          ],
+          "sightWords": []
+        },
+        {
+          "type": "lesson",
+          "id": "extension-r15",
+          "label": "R15",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": []
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt3",
+          "label": "Mastery Test 3",
+          "covers": [
+            "extension-r11",
+            "extension-r12",
+            "extension-r13",
+            "extension-r14",
+            "extension-r15"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-1",
+          "label": "1",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "sn",
+              "label": "sn_",
+              "words": [
+                "snap",
+                "snip",
+                "snug",
+                "snack",
+                "sniff",
+                "snag"
+              ]
+            },
+            {
+              "id": "st",
+              "label": "st",
+              "words": [
+                "stop",
+                "step",
+                "stack",
+                "stick",
+                "stuck",
+                "stem",
+                "stub",
+                "best",
+                "nest",
+                "rest",
+                "test",
+                "fast",
+                "last",
+                "mist",
+                "fist",
+                "just",
+                "must",
+                "rust",
+                "dust",
+                "cost",
+                "lost"
+              ]
+            }
+          ],
+          "sightWords": [
+            "their",
+            "too",
+            "father"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-2",
+          "label": "2",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "fl",
+              "label": "fl_",
+              "words": [
+                "flag",
+                "flap",
+                "flat",
+                "flip",
+                "flop",
+                "fled",
+                "flick",
+                "flock",
+                "flash",
+                "fluff"
+              ]
+            },
+            {
+              "id": "fr",
+              "label": "fr_",
+              "words": [
+                "frog",
+                "fret",
+                "fresh",
+                "frill",
+                "frizz"
+              ]
+            },
+            {
+              "id": "s-2-inflection",
+              "label": "_s(2) (inflection)",
+              "words": [
+                "cats",
+                "maps",
+                "hats",
+                "cups",
+                "rocks",
+                "ducks",
+                "dogs",
+                "bugs",
+                "beds",
+                "pens",
+                "kids",
+                "pigs"
+              ]
+            }
+          ],
+          "sightWords": [
+            "walk",
+            "talk",
+            "water"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-3",
+          "label": "3",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "gr",
+              "label": "gr_",
+              "words": [
+                "grab",
+                "grin",
+                "grip",
+                "grim",
+                "grub",
+                "grass",
+                "grill",
+                "grit"
+              ]
+            },
+            {
+              "id": "dr",
+              "label": "dr_",
+              "words": [
+                "drag",
+                "drip",
+                "drop",
+                "drum",
+                "dress",
+                "drill"
+              ]
+            },
+            {
+              "id": "es-inflection",
+              "label": "_es (inflection)",
+              "words": [
+                "wishes",
+                "dishes",
+                "boxes",
+                "foxes",
+                "mixes",
+                "fixes",
+                "catches",
+                "patches",
+                "rushes",
+                "buses"
+              ]
+            }
+          ],
+          "sightWords": [
+            "other",
+            "mother",
+            "brother"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-4",
+          "label": "4",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "pl",
+              "label": "pl_",
+              "words": [
+                "plan",
+                "plum",
+                "plot",
+                "plug",
+                "plus",
+                "plop"
+              ]
+            },
+            {
+              "id": "sm",
+              "label": "sm_",
+              "words": [
+                "smash",
+                "smell",
+                "smog",
+                "smug"
+              ]
+            },
+            {
+              "id": "ed-3-inflection",
+              "label": "_ed(3) (inflection)",
+              "words": [
+                "packed",
+                "kicked",
+                "locked",
+                "wished",
+                "fished",
+                "mixed",
+                "yelled",
+                "filled",
+                "smelled",
+                "buzzed",
+                "fizzed",
+                "rested",
+                "tested",
+                "dusted",
+                "nested"
+              ]
+            }
+          ],
+          "sightWords": [
+            "food",
+            "very",
+            "two"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-5",
+          "label": "5",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "sp",
+              "label": "sp",
+              "words": [
+                "spin",
+                "spot",
+                "spell",
+                "spill",
+                "speck",
+                "spun",
+                "span"
+              ]
+            },
+            {
+              "id": "cl",
+              "label": "cl_",
+              "words": [
+                "clap",
+                "clip",
+                "clam",
+                "clock",
+                "cluck",
+                "class",
+                "cliff",
+                "click"
+              ]
+            },
+            {
+              "id": "sk",
+              "label": "sk",
+              "words": [
+                "skip",
+                "skin",
+                "skid",
+                "skill",
+                "desk",
+                "mask",
+                "task",
+                "tusk",
+                "risk",
+                "husk",
+                "ask"
+              ]
+            },
+            {
+              "id": "sl",
+              "label": "sl_",
+              "words": [
+                "slip",
+                "slap",
+                "sled",
+                "slam",
+                "slid",
+                "slot",
+                "slug",
+                "slush"
+              ]
+            }
+          ],
+          "sightWords": [
+            "live(2)",
+            "give",
+            "look",
+            "been"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt4",
+          "label": "Mastery Test 4",
+          "covers": [
+            "extension-1",
+            "extension-2",
+            "extension-3",
+            "extension-4",
+            "extension-5"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-6",
+          "label": "6",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a-e",
+              "label": "a_e",
+              "words": [
+                "cake",
+                "make",
+                "lake",
+                "bake",
+                "game",
+                "same",
+                "gate",
+                "late",
+                "cave",
+                "gave",
+                "save",
+                "tape",
+                "shape",
+                "plate",
+                "flame",
+                "snake",
+                "skate",
+                "grape",
+                "frame"
+              ]
+            },
+            {
+              "id": "e-e",
+              "label": "e_e",
+              "words": [
+                "these",
+                "theme",
+                "eve",
+                "delete",
+                "compete",
+                "complete",
+                "extreme"
+              ]
+            },
+            {
+              "id": "i-e",
+              "label": "i_e",
+              "words": [
+                "bike",
+                "hike",
+                "time",
+                "dime",
+                "line",
+                "fine",
+                "mine",
+                "pine",
+                "ride",
+                "side",
+                "hide",
+                "wide",
+                "kite",
+                "bite",
+                "five",
+                "dive",
+                "hive",
+                "smile",
+                "slide",
+                "drive",
+                "spine",
+                "slime",
+                "prize"
+              ]
+            },
+            {
+              "id": "o-e",
+              "label": "o_e",
+              "words": [
+                "bone",
+                "cone",
+                "hope",
+                "rope",
+                "note",
+                "vote",
+                "nose",
+                "rose",
+                "hole",
+                "pole",
+                "joke",
+                "poke",
+                "woke",
+                "smoke",
+                "stove",
+                "froze",
+                "drove",
+                "globe"
+              ]
+            },
+            {
+              "id": "u-e-2",
+              "label": "u_e(2)",
+              "words": [
+                "cute",
+                "mule",
+                "use",
+                "cube",
+                "fuse",
+                "mute",
+                "tube",
+                "rude",
+                "rule",
+                "tune",
+                "flute",
+                "dune",
+                "prune"
+              ]
+            }
+          ],
+          "sightWords": [
+            "large",
+            "every",
+            "after"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-7",
+          "label": "7",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "carry",
+            "again",
+            "both"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-8",
+          "label": "8",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "s-2-inflection-with-final-e-words",
+              "label": "_s(2) (inflection with final-e words)",
+              "words": [
+                "bikes",
+                "cakes",
+                "kites",
+                "notes",
+                "ropes",
+                "lakes",
+                "rides",
+                "bones",
+                "names",
+                "games",
+                "lines",
+                "waves"
+              ]
+            }
+          ],
+          "sightWords": [
+            "could",
+            "would",
+            "wild",
+            "child"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-9",
+          "label": "9",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "children",
+            "friend",
+            "school"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt5",
+          "label": "Mastery Test 5",
+          "covers": [
+            "extension-6",
+            "extension-7",
+            "extension-8",
+            "extension-9"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-10",
+          "label": "10",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ing-inflection-with-final-e-words",
+              "label": "_ing (inflection with final-e words)",
+              "words": [
+                "making",
+                "baking",
+                "riding",
+                "hiding",
+                "hoping",
+                "smiling",
+                "skating",
+                "sliding",
+                "waving",
+                "taking",
+                "joking",
+                "poking",
+                "diving"
+              ]
+            }
+          ],
+          "sightWords": [
+            "pull",
+            "full",
+            "watch"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-11",
+          "label": "11",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "were",
+            "don't",
+            "won't"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-12",
+          "label": "12",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ed-3-inflection-with-final-e-words",
+              "label": "_ed(3) (inflection with final-e words)",
+              "words": [
+                "baked",
+                "liked",
+                "hoped",
+                "joked",
+                "poked",
+                "smiled",
+                "named",
+                "lined",
+                "waved",
+                "saved",
+                "used",
+                "faded",
+                "voted",
+                "skated",
+                "noted",
+                "traded"
+              ]
+            }
+          ],
+          "sightWords": [
+            "good",
+            "most",
+            "read(2)"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-13",
+          "label": "13",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "move",
+            "people",
+            "ready"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-14",
+          "label": "14",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "today",
+            "work",
+            "great"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-15",
+          "label": "15",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "who",
+            "push",
+            "done"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt6",
+          "label": "Mastery Test 6",
+          "covers": [
+            "extension-10",
+            "extension-11",
+            "extension-12",
+            "extension-13",
+            "extension-14",
+            "extension-15"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-16",
+          "label": "16",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ee",
+              "label": "ee",
+              "words": [
+                "bee",
+                "tree",
+                "feet",
+                "meet",
+                "seed",
+                "need",
+                "feed",
+                "weed",
+                "deep",
+                "keep",
+                "sheep",
+                "sleep",
+                "week",
+                "peek",
+                "cheek",
+                "green",
+                "queen",
+                "teeth",
+                "speed"
+              ]
+            },
+            {
+              "id": "ea",
+              "label": "ea",
+              "words": [
+                "eat",
+                "sea",
+                "tea",
+                "pea",
+                "bead",
+                "leaf",
+                "leap",
+                "heat",
+                "meat",
+                "neat",
+                "seat",
+                "beat",
+                "team",
+                "dream",
+                "clean",
+                "speak",
+                "sneak",
+                "peach",
+                "beach",
+                "teach",
+                "each"
+              ]
+            }
+          ],
+          "sightWords": [
+            "gone",
+            "few",
+            "sure"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-17",
+          "label": "17",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "word",
+            "because",
+            "love"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt7",
+          "label": "Mastery Test 7",
+          "covers": [
+            "extension-16",
+            "extension-17"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-18",
+          "label": "18",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "er",
+              "label": "er",
+              "words": [
+                "fern",
+                "herd",
+                "term",
+                "perch",
+                "clerk",
+                "stern"
+              ]
+            },
+            {
+              "id": "ir",
+              "label": "ir",
+              "words": [
+                "girl",
+                "sir",
+                "stir",
+                "firm",
+                "first",
+                "shirt",
+                "skirt",
+                "dirt",
+                "third",
+                "chirp",
+                "fir"
+              ]
+            },
+            {
+              "id": "ur",
+              "label": "ur",
+              "words": [
+                "fur",
+                "turn",
+                "burn",
+                "hurt",
+                "curl",
+                "surf",
+                "church",
+                "burst",
+                "slurp",
+                "churn",
+                "curb"
+              ]
+            }
+          ],
+          "sightWords": [
+            "answer",
+            "nothing",
+            "once"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-19",
+          "label": "19",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "ago",
+            "kind",
+            "mind"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-20",
+          "label": "20",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ar",
+              "label": "ar",
+              "words": [
+                "car",
+                "far",
+                "jar",
+                "star",
+                "arm",
+                "art",
+                "barn",
+                "card",
+                "cart",
+                "dark",
+                "farm",
+                "hard",
+                "park",
+                "part",
+                "shark",
+                "smart",
+                "start",
+                "yard",
+                "march",
+                "sharp"
+              ]
+            }
+          ],
+          "sightWords": [
+            "should",
+            "ever",
+            "never"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt8",
+          "label": "Mastery Test 8",
+          "covers": [
+            "extension-18",
+            "extension-19",
+            "extension-20"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-21",
+          "label": "21",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "or",
+              "label": "or",
+              "words": [
+                "corn",
+                "fork",
+                "horn",
+                "born",
+                "cord",
+                "form",
+                "fort",
+                "north",
+                "porch",
+                "short",
+                "sort",
+                "sport",
+                "storm",
+                "torn",
+                "thorn"
+              ]
+            }
+          ],
+          "sightWords": [
+            "even",
+            "change",
+            "only"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-22",
+          "label": "22",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ai",
+              "label": "ai_",
+              "words": [
+                "rain",
+                "pain",
+                "main",
+                "tail",
+                "mail",
+                "sail",
+                "nail",
+                "wait",
+                "paint",
+                "chain",
+                "train",
+                "brain",
+                "snail",
+                "faint",
+                "drain"
+              ]
+            },
+            {
+              "id": "ay",
+              "label": "_ay",
+              "words": [
+                "say",
+                "may",
+                "pay",
+                "hay",
+                "lay",
+                "ray",
+                "stay",
+                "gray",
+                "clay",
+                "tray",
+                "pray",
+                "spray",
+                "sway"
+              ]
+            }
+          ],
+          "sightWords": [
+            "woman",
+            "women"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-23",
+          "label": "23",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "toward",
+            "won",
+            "often"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-24",
+          "label": "24",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "head",
+            "bread",
+            "four"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-25",
+          "label": "25",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "oa",
+              "label": "oa_",
+              "words": [
+                "boat",
+                "coat",
+                "goat",
+                "road",
+                "toad",
+                "soap",
+                "loaf",
+                "foam",
+                "float",
+                "coach",
+                "roast",
+                "toast",
+                "throat",
+                "cloak"
+              ]
+            },
+            {
+              "id": "ow-2",
+              "label": "ow(2)",
+              "words": [
+                "snow",
+                "grow",
+                "show",
+                "slow",
+                "blow",
+                "glow",
+                "flow",
+                "row",
+                "bowl",
+                "own",
+                "cow",
+                "now",
+                "how",
+                "wow",
+                "town",
+                "brown",
+                "crown",
+                "clown",
+                "gown",
+                "owl",
+                "growl",
+                "howl",
+                "frown"
+              ]
+            }
+          ],
+          "sightWords": [
+            "beautiful",
+            "true",
+            "blue"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt9",
+          "label": "Mastery Test 9",
+          "covers": [
+            "extension-21",
+            "extension-22",
+            "extension-23",
+            "extension-24",
+            "extension-25"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-26",
+          "label": "26",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "Mr.",
+            "Mrs.",
+            "Ms.",
+            "Miss"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-27",
+          "label": "27",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "oo-2",
+              "label": "oo(2)",
+              "words": [
+                "moon",
+                "soon",
+                "room",
+                "zoo",
+                "boot",
+                "cool",
+                "pool",
+                "tool",
+                "spoon",
+                "broom",
+                "roof",
+                "tooth",
+                "book",
+                "cook",
+                "hook",
+                "took",
+                "foot",
+                "wood",
+                "hood",
+                "wool",
+                "stood",
+                "shook"
+              ]
+            },
+            {
+              "id": "ew-2",
+              "label": "_ew(2)",
+              "words": [
+                "grew",
+                "chew",
+                "drew",
+                "flew",
+                "stew",
+                "crew",
+                "blew",
+                "threw",
+                "new",
+                "pew"
+              ]
+            },
+            {
+              "id": "tle",
+              "label": "-tle",
+              "words": [
+                "bottle",
+                "kettle",
+                "battle",
+                "settle",
+                "cattle",
+                "rattle",
+                "title",
+                "turtle",
+                "beetle"
+              ]
+            }
+          ],
+          "sightWords": [
+            "whole",
+            "whose",
+            "who's"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-28",
+          "label": "28",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "dle",
+              "label": "-dle",
+              "words": [
+                "candle",
+                "handle",
+                "middle",
+                "puddle",
+                "paddle",
+                "saddle",
+                "noodle",
+                "needle",
+                "riddle",
+                "cradle",
+                "poodle",
+                "bundle",
+                "fiddle"
+              ]
+            }
+          ],
+          "sightWords": [
+            "picture",
+            "eye",
+            "guess"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-29",
+          "label": "29",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a-l",
+              "label": "a(l)",
+              "words": [
+                "salt",
+                "halt",
+                "bald",
+                "chalk",
+                "stalk",
+                "also",
+                "almost"
+              ]
+            },
+            {
+              "id": "a-ll",
+              "label": "a(ll)",
+              "words": [
+                "tall",
+                "fall",
+                "hall",
+                "wall",
+                "mall",
+                "stall",
+                "hallway",
+                "install"
+              ]
+            },
+            {
+              "id": "ble",
+              "label": "-ble",
+              "words": [
+                "table",
+                "able",
+                "cable",
+                "bubble",
+                "pebble",
+                "tumble",
+                "crumble",
+                "grumble",
+                "fable",
+                "stable",
+                "nibble",
+                "wobble",
+                "marble",
+                "humble"
+              ]
+            }
+          ],
+          "sightWords": [
+            "busy",
+            "build",
+            "built"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-30",
+          "label": "30",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "igh",
+              "label": "_igh",
+              "words": [
+                "high",
+                "sigh",
+                "night",
+                "light",
+                "right",
+                "sight",
+                "might",
+                "fight",
+                "tight",
+                "bright",
+                "flight",
+                "fright"
+              ]
+            },
+            {
+              "id": "wr",
+              "label": "wr_",
+              "words": [
+                "write",
+                "wrap",
+                "wrist",
+                "wreck",
+                "wrong",
+                "wren",
+                "wring"
+              ]
+            },
+            {
+              "id": "kn",
+              "label": "kn_",
+              "words": [
+                "knee",
+                "knit",
+                "knot",
+                "knock",
+                "knob",
+                "knife",
+                "kneel",
+                "know"
+              ]
+            },
+            {
+              "id": "gle",
+              "label": "-gle",
+              "words": [
+                "jungle",
+                "giggle",
+                "wiggle",
+                "juggle",
+                "bugle",
+                "eagle",
+                "single",
+                "tangle",
+                "dangle",
+                "jingle"
+              ]
+            }
+          ],
+          "sightWords": [
+            "hour",
+            "buy",
+            "month"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt10",
+          "label": "Mastery Test 10",
+          "covers": [
+            "extension-26",
+            "extension-27",
+            "extension-28",
+            "extension-29",
+            "extension-30"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-31",
+          "label": "31",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "y",
+              "label": "_y",
+              "words": [
+                "try",
+                "cry",
+                "dry",
+                "sky",
+                "shy",
+                "spy",
+                "fry",
+                "sly"
+              ]
+            },
+            {
+              "id": "y",
+              "label": "__y",
+              "words": [
+                "baby",
+                "happy",
+                "funny",
+                "puppy",
+                "candy",
+                "sunny",
+                "bunny",
+                "penny",
+                "lady",
+                "silly",
+                "windy",
+                "muddy",
+                "foggy"
+              ]
+            },
+            {
+              "id": "ple",
+              "label": "-ple",
+              "words": [
+                "apple",
+                "purple",
+                "simple",
+                "maple",
+                "sample",
+                "ripple",
+                "dimple",
+                "temple",
+                "staple",
+                "triple"
+              ]
+            }
+          ],
+          "sightWords": [
+            "shoe",
+            "piece",
+            "money"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-32",
+          "label": "32",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "es-inflection-with-final-y-words",
+              "label": "_es (inflection with final-y words)",
+              "words": [
+                "cries",
+                "tries",
+                "flies",
+                "fries",
+                "spies",
+                "babies",
+                "puppies",
+                "ladies",
+                "pennies",
+                "bunnies"
+              ]
+            },
+            {
+              "id": "ed-inflection-with-final-y-words",
+              "label": "_ed (inflection with final-y words)",
+              "words": [
+                "cried",
+                "tried",
+                "fried",
+                "dried",
+                "spied",
+                "replied"
+              ]
+            }
+          ],
+          "sightWords": [
+            "key",
+            "door",
+            "floor"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-33",
+          "label": "33",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ou",
+              "label": "ou_",
+              "words": [
+                "loud",
+                "cloud",
+                "proud",
+                "shout",
+                "sound",
+                "round",
+                "found",
+                "ground",
+                "mouth",
+                "south",
+                "house",
+                "mouse",
+                "count",
+                "pound",
+                "couch"
+              ]
+            },
+            {
+              "id": "ph",
+              "label": "ph",
+              "words": [
+                "phone",
+                "graph",
+                "photo",
+                "dolphin",
+                "trophy",
+                "alphabet",
+                "phonics"
+              ]
+            }
+          ],
+          "sightWords": [
+            "half",
+            "toe",
+            "eight"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-34",
+          "label": "34",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "tie",
+            "pie",
+            "lie",
+            "young"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-35",
+          "label": "35",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "oi",
+              "label": "oi_",
+              "words": [
+                "oil",
+                "boil",
+                "coil",
+                "foil",
+                "soil",
+                "coin",
+                "join",
+                "point",
+                "moist",
+                "joint",
+                "noise",
+                "spoil"
+              ]
+            },
+            {
+              "id": "oy",
+              "label": "_oy",
+              "words": [
+                "boy",
+                "toy",
+                "joy",
+                "soy",
+                "enjoy",
+                "annoy",
+                "oyster",
+                "cowboy",
+                "destroy"
+              ]
+            }
+          ],
+          "sightWords": [
+            "caught",
+            "climb"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt11",
+          "label": "Mastery Test 11",
+          "covers": [
+            "extension-31",
+            "extension-32",
+            "extension-33",
+            "extension-34",
+            "extension-35"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-36",
+          "label": "36",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "au",
+              "label": "au_",
+              "words": [
+                "haul",
+                "fault",
+                "launch",
+                "author",
+                "haunt",
+                "cause",
+                "pause",
+                "vault"
+              ]
+            },
+            {
+              "id": "aw",
+              "label": "aw",
+              "words": [
+                "paw",
+                "jaw",
+                "raw",
+                "law",
+                "claw",
+                "draw",
+                "straw",
+                "lawn",
+                "yawn",
+                "dawn",
+                "crawl",
+                "hawk",
+                "shawl"
+              ]
+            }
+          ],
+          "sightWords": [
+            "bought",
+            "brought",
+            "thought"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-37",
+          "label": "37",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "learn",
+            "heard",
+            "earth"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-38",
+          "label": "38",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "c-e",
+              "label": "c(e)",
+              "words": [
+                "cent",
+                "cell",
+                "ice",
+                "rice",
+                "nice",
+                "face",
+                "race",
+                "place",
+                "space",
+                "dance",
+                "fence",
+                "mice",
+                "slice",
+                "prince"
+              ]
+            },
+            {
+              "id": "c-i",
+              "label": "c(i)",
+              "words": [
+                "city",
+                "circle",
+                "pencil",
+                "circus",
+                "decide",
+                "cider"
+              ]
+            },
+            {
+              "id": "c-y",
+              "label": "c(y)",
+              "words": [
+                "cycle",
+                "bicycle",
+                "fancy",
+                "mercy",
+                "icy",
+                "cyclone",
+                "spicy"
+              ]
+            }
+          ],
+          "sightWords": [
+            "early",
+            "group",
+            "through"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-39",
+          "label": "39",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "since",
+            "either",
+            "neither"
+          ]
+        },
+        {
+          "type": "lesson",
+          "id": "extension-40",
+          "label": "40",
+          "isReview": true,
+          "patterns": [],
+          "sightWords": [
+            "heart",
+            "enough"
+          ]
+        },
+        {
+          "type": "masteryTest",
+          "id": "extension-mt12",
+          "label": "Mastery Test 12",
+          "covers": [
+            "extension-36",
+            "extension-37",
+            "extension-38",
+            "extension-39",
+            "extension-40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "name": "Challenge",
+      "lists": [
+        "A",
+        "B",
+        "C"
+      ],
+      "items": [
+        {
+          "type": "lesson",
+          "id": "challenge-1",
+          "label": "1",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a",
+              "label": "a_",
+              "words": [
+                "cat",
+                "hat",
+                "mat",
+                "sat",
+                "bag",
+                "rag",
+                "map",
+                "cap",
+                "nap",
+                "jam",
+                "ham",
+                "van",
+                "fan",
+                "man",
+                "pan",
+                "tap",
+                "bat",
+                "dad",
+                "sad",
+                "wax"
+              ]
+            },
+            {
+              "id": "e",
+              "label": "e_",
+              "words": [
+                "bed",
+                "red",
+                "fed",
+                "led",
+                "hen",
+                "pen",
+                "ten",
+                "men",
+                "den",
+                "net",
+                "pet",
+                "set",
+                "wet",
+                "jet",
+                "let",
+                "get",
+                "beg",
+                "leg",
+                "peg",
+                "web",
+                "yes",
+                "vet"
+              ]
+            },
+            {
+              "id": "i",
+              "label": "i_",
+              "words": [
+                "big",
+                "dig",
+                "pig",
+                "wig",
+                "sit",
+                "hit",
+                "bit",
+                "fit",
+                "lid",
+                "rid",
+                "kid",
+                "hid",
+                "win",
+                "pin",
+                "tin",
+                "fin",
+                "dip",
+                "hip",
+                "lip",
+                "rip",
+                "six",
+                "mix",
+                "fix"
+              ]
+            },
+            {
+              "id": "o",
+              "label": "o_",
+              "words": [
+                "hot",
+                "pot",
+                "dot",
+                "not",
+                "got",
+                "cot",
+                "lot",
+                "mop",
+                "top",
+                "hop",
+                "pop",
+                "dog",
+                "log",
+                "fog",
+                "hog",
+                "jog",
+                "box",
+                "fox",
+                "rod",
+                "nod",
+                "job",
+                "rob",
+                "mom",
+                "on"
+              ]
+            },
+            {
+              "id": "u",
+              "label": "u_",
+              "words": [
+                "bug",
+                "hug",
+                "mug",
+                "rug",
+                "jug",
+                "dug",
+                "tug",
+                "bun",
+                "fun",
+                "run",
+                "sun",
+                "cup",
+                "pup",
+                "cut",
+                "hut",
+                "nut",
+                "but",
+                "tub",
+                "rub",
+                "sub",
+                "cub",
+                "mud",
+                "bud",
+                "bus",
+                "yum"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": "Introduce Open and Closed Syllables"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-2",
+          "label": "2",
+          "isReview": true,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": "Start Syllabic Transformations"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-3",
+          "label": "3",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "y",
+              "label": "__y",
+              "words": [
+                "baby",
+                "happy",
+                "funny",
+                "puppy",
+                "candy",
+                "sunny",
+                "bunny",
+                "penny",
+                "lady",
+                "silly",
+                "windy",
+                "muddy",
+                "foggy"
+              ]
+            },
+            {
+              "id": "y",
+              "label": "_y",
+              "words": [
+                "try",
+                "cry",
+                "dry",
+                "sky",
+                "shy",
+                "spy",
+                "fry",
+                "sly"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-4",
+          "label": "4",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "er",
+              "-ly"
+            ],
+            "B": [
+              "er",
+              "-ly"
+            ],
+            "C": [
+              "er",
+              "-ly"
+            ]
+          },
+          "strategy": "Start Guided Spelling"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-5",
+          "label": "5",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "-ble",
+              "-gle",
+              "-ple"
+            ],
+            "B": [
+              "-ble",
+              "-gle",
+              "-ple"
+            ],
+            "C": [
+              "-ble",
+              "-gle",
+              "-ple"
+            ]
+          },
+          "strategy": "Start Reading by Syllables"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-6",
+          "label": "6",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "sh",
+              "label": "sh",
+              "words": [
+                "ship",
+                "shop",
+                "shut",
+                "shed",
+                "shin",
+                "fish",
+                "dish",
+                "wish",
+                "cash",
+                "mash",
+                "rash",
+                "hush",
+                "mush",
+                "rush",
+                "gush"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-dle",
+              "-tle",
+              "col"
+            ],
+            "B": [
+              "-dle",
+              "-tle",
+              "col"
+            ],
+            "C": [
+              "-dle",
+              "-tle",
+              "ish"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-7",
+          "label": "7",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "ad",
+              "pic",
+              "ex"
+            ],
+            "B": [
+              "cent",
+              "pic",
+              "ex"
+            ],
+            "C": [
+              "sym",
+              "cent",
+              "ex"
+            ]
+          },
+          "strategy": "Introduce Schwa"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-8",
+          "label": "8",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "th-2",
+              "label": "th(2)",
+              "words": [
+                "thin",
+                "thud",
+                "path",
+                "bath",
+                "math",
+                "moth",
+                "with",
+                "then",
+                "them",
+                "that",
+                "this",
+                "than"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "ment",
+              "less",
+              "in"
+            ],
+            "B": [
+              "duct",
+              "ment",
+              "less"
+            ],
+            "C": [
+              "sys",
+              "less",
+              "ment"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-9",
+          "label": "9",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "sub",
+              "est"
+            ],
+            "B": [
+              "sub",
+              "est"
+            ],
+            "C": [
+              "sub",
+              "est",
+              "micro"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-10",
+          "label": "10",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ch",
+              "label": "ch",
+              "words": [
+                "chip",
+                "chop",
+                "chin",
+                "chat",
+                "chug",
+                "much",
+                "such",
+                "rich"
+              ]
+            },
+            {
+              "id": "tch",
+              "label": "_tch",
+              "words": [
+                "catch",
+                "match",
+                "patch",
+                "latch",
+                "hatch",
+                "itch",
+                "pitch",
+                "ditch",
+                "witch",
+                "fetch",
+                "notch",
+                "hutch"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "ant",
+              "en",
+              "mod"
+            ],
+            "B": [
+              "ant",
+              "en",
+              "mod"
+            ],
+            "C": [
+              "syn",
+              "fore",
+              "phon"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-11",
+          "label": "11",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ph",
+              "label": "ph",
+              "words": [
+                "phone",
+                "graph",
+                "photo",
+                "dolphin",
+                "trophy",
+                "alphabet",
+                "phonics"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-tion",
+              "ac",
+              "de"
+            ],
+            "B": [
+              "-tion",
+              "ac",
+              "de"
+            ],
+            "C": [
+              "-tion",
+              "scan",
+              "auto"
+            ]
+          },
+          "strategy": "Introduce VC/CV Splits"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-12",
+          "label": "12",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "wh",
+              "label": "wh",
+              "words": [
+                "when",
+                "which",
+                "whip",
+                "whiz",
+                "wham",
+                "whim"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "nect",
+              "dif",
+              "per"
+            ],
+            "B": [
+              "nect",
+              "dif",
+              "per"
+            ],
+            "C": [
+              "-ship",
+              "frac",
+              "-scope"
+            ]
+          },
+          "strategy": "Start Reading Entire Words"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-13",
+          "label": "13",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "c-e",
+              "label": "c(e)",
+              "words": [
+                "cent",
+                "cell",
+                "ice",
+                "rice",
+                "nice",
+                "face",
+                "race",
+                "place",
+                "space",
+                "dance",
+                "fence",
+                "mice",
+                "slice",
+                "prince"
+              ]
+            },
+            {
+              "id": "c-i",
+              "label": "c(i)",
+              "words": [
+                "city",
+                "circle",
+                "pencil",
+                "circus",
+                "decide",
+                "cider"
+              ]
+            },
+            {
+              "id": "c-y",
+              "label": "c(y)",
+              "words": [
+                "cycle",
+                "bicycle",
+                "fancy",
+                "mercy",
+                "icy",
+                "cyclone",
+                "spicy"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "mem",
+              "ness",
+              "-al"
+            ],
+            "B": [
+              "mem",
+              "ness",
+              "-al"
+            ],
+            "C": [
+              "ness",
+              "-al",
+              "anti"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-14",
+          "label": "14",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "mid",
+              "un",
+              "re"
+            ],
+            "B": [
+              "mid",
+              "un",
+              "re"
+            ],
+            "C": [
+              "mid",
+              "un",
+              "div"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-15",
+          "label": "15",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "vent",
+              "ob",
+              "ult"
+            ],
+            "B": [
+              "vent",
+              "ob",
+              "ult"
+            ],
+            "C": [
+              "inter",
+              "-ster",
+              "script"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-16",
+          "label": "16",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "a-e",
+              "label": "a_e",
+              "words": [
+                "cake",
+                "make",
+                "lake",
+                "bake",
+                "game",
+                "same",
+                "gate",
+                "late",
+                "cave",
+                "gave",
+                "save",
+                "tape",
+                "shape",
+                "plate",
+                "flame",
+                "snake",
+                "skate",
+                "grape",
+                "frame"
+              ]
+            },
+            {
+              "id": "e-e",
+              "label": "e_e",
+              "words": [
+                "these",
+                "theme",
+                "eve",
+                "delete",
+                "compete",
+                "complete",
+                "extreme"
+              ]
+            },
+            {
+              "id": "i-e",
+              "label": "i_e",
+              "words": [
+                "bike",
+                "hike",
+                "time",
+                "dime",
+                "line",
+                "fine",
+                "mine",
+                "pine",
+                "ride",
+                "side",
+                "hide",
+                "wide",
+                "kite",
+                "bite",
+                "five",
+                "dive",
+                "hive",
+                "smile",
+                "slide",
+                "drive",
+                "spine",
+                "slime",
+                "prize"
+              ]
+            },
+            {
+              "id": "o-e",
+              "label": "o_e",
+              "words": [
+                "bone",
+                "cone",
+                "hope",
+                "rope",
+                "note",
+                "vote",
+                "nose",
+                "rose",
+                "hole",
+                "pole",
+                "joke",
+                "poke",
+                "woke",
+                "smoke",
+                "stove",
+                "froze",
+                "drove",
+                "globe"
+              ]
+            },
+            {
+              "id": "u-e-2",
+              "label": "u_e(2)",
+              "words": [
+                "cute",
+                "mule",
+                "use",
+                "cube",
+                "fuse",
+                "mute",
+                "tube",
+                "rude",
+                "rule",
+                "tune",
+                "flute",
+                "dune",
+                "prune"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "co",
+              "multi",
+              "ject"
+            ],
+            "B": [
+              "co",
+              "multi",
+              "ject"
+            ],
+            "C": [
+              "il",
+              "multi",
+              "semi"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-17",
+          "label": "17",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "mis",
+              "quent",
+              "ing"
+            ],
+            "B": [
+              "mis",
+              "quent",
+              "vid"
+            ],
+            "C": [
+              "mis",
+              "pel",
+              "vid"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-18",
+          "label": "18",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "-ize",
+              "act",
+              "im"
+            ],
+            "B": [
+              "-ize",
+              "act",
+              "hos"
+            ],
+            "C": [
+              "-ize",
+              "dent",
+              "dict"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-19",
+          "label": "19",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "pre",
+              "con"
+            ],
+            "B": [
+              "pre",
+              "con",
+              "vill"
+            ],
+            "C": [
+              "pre",
+              "-tude",
+              "cred"
+            ]
+          },
+          "strategy": "Introduce V/CV and VC/V Splits"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-20",
+          "label": "20",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "graph",
+              "non",
+              "prob"
+            ],
+            "B": [
+              "graph",
+              "non",
+              "prob"
+            ],
+            "C": [
+              "graph",
+              "non",
+              "bi"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-21",
+          "label": "21",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ee",
+              "label": "ee",
+              "words": [
+                "bee",
+                "tree",
+                "feet",
+                "meet",
+                "seed",
+                "need",
+                "feed",
+                "weed",
+                "deep",
+                "keep",
+                "sheep",
+                "sleep",
+                "week",
+                "peek",
+                "cheek",
+                "green",
+                "queen",
+                "teeth",
+                "speed"
+              ]
+            },
+            {
+              "id": "ea",
+              "label": "ea",
+              "words": [
+                "eat",
+                "sea",
+                "tea",
+                "pea",
+                "bead",
+                "leaf",
+                "leap",
+                "heat",
+                "meat",
+                "neat",
+                "seat",
+                "beat",
+                "team",
+                "dream",
+                "clean",
+                "speak",
+                "sneak",
+                "peach",
+                "beach",
+                "teach",
+                "each"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-ible",
+              "-able",
+              "-eer"
+            ],
+            "B": [
+              "-ible",
+              "-able",
+              "-eer"
+            ],
+            "C": [
+              "-ible",
+              "-able",
+              "-eer"
+            ]
+          },
+          "strategy": "Start Morphemic Transformations"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-22",
+          "label": "22",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "pend",
+              "tri",
+              "por"
+            ],
+            "B": [
+              "pend",
+              "tri",
+              "por"
+            ],
+            "C": [
+              "pend",
+              "tri",
+              "min"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-23",
+          "label": "23",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ar",
+              "label": "ar",
+              "words": [
+                "car",
+                "far",
+                "jar",
+                "star",
+                "arm",
+                "art",
+                "barn",
+                "card",
+                "cart",
+                "dark",
+                "farm",
+                "hard",
+                "park",
+                "part",
+                "shark",
+                "smart",
+                "start",
+                "yard",
+                "march",
+                "sharp"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "meter",
+              "ist",
+              "ab"
+            ],
+            "B": [
+              "meter",
+              "ist",
+              "port"
+            ],
+            "C": [
+              "meter",
+              "ist",
+              "port"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-24",
+          "label": "24",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "er",
+              "label": "er",
+              "words": [
+                "fern",
+                "herd",
+                "term",
+                "perch",
+                "clerk",
+                "stern"
+              ]
+            },
+            {
+              "id": "ir",
+              "label": "ir",
+              "words": [
+                "girl",
+                "sir",
+                "stir",
+                "firm",
+                "first",
+                "shirt",
+                "skirt",
+                "dirt",
+                "third",
+                "chirp",
+                "fir"
+              ]
+            },
+            {
+              "id": "ur",
+              "label": "ur",
+              "words": [
+                "fur",
+                "turn",
+                "burn",
+                "hurt",
+                "curl",
+                "surf",
+                "church",
+                "burst",
+                "slurp",
+                "churn",
+                "curb"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-ence",
+              "-ance"
+            ],
+            "B": [
+              "-ence",
+              "-ance"
+            ],
+            "C": [
+              "-ence",
+              "-ance"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-25",
+          "label": "25",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "or",
+              "label": "or",
+              "words": [
+                "corn",
+                "fork",
+                "horn",
+                "born",
+                "cord",
+                "form",
+                "fort",
+                "north",
+                "porch",
+                "short",
+                "sort",
+                "sport",
+                "storm",
+                "torn",
+                "thorn"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-ous",
+              "-ious"
+            ],
+            "B": [
+              "-ous",
+              "-ious"
+            ],
+            "C": [
+              "-ous",
+              "-ious"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-26",
+          "label": "26",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ai",
+              "label": "ai_",
+              "words": [
+                "rain",
+                "pain",
+                "main",
+                "tail",
+                "mail",
+                "sail",
+                "nail",
+                "wait",
+                "paint",
+                "chain",
+                "train",
+                "brain",
+                "snail",
+                "faint",
+                "drain"
+              ]
+            },
+            {
+              "id": "ay",
+              "label": "_ay",
+              "words": [
+                "say",
+                "may",
+                "pay",
+                "hay",
+                "lay",
+                "ray",
+                "stay",
+                "gray",
+                "clay",
+                "tray",
+                "pray",
+                "spray",
+                "sway"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "ent",
+              "ves",
+              "cap"
+            ],
+            "B": [
+              "ent",
+              "ves",
+              "cap"
+            ],
+            "C": [
+              "fac",
+              "civ",
+              "cap"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-27",
+          "label": "27",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "dis",
+              "mand"
+            ],
+            "B": [
+              "dis",
+              "mand"
+            ],
+            "C": [
+              "spec",
+              "mand",
+              "grat"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-28",
+          "label": "28",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "oa",
+              "label": "oa_",
+              "words": [
+                "boat",
+                "coat",
+                "goat",
+                "road",
+                "toad",
+                "soap",
+                "loaf",
+                "foam",
+                "float",
+                "coach",
+                "roast",
+                "toast",
+                "throat",
+                "cloak"
+              ]
+            },
+            {
+              "id": "ow-2",
+              "label": "ow(2)",
+              "words": [
+                "snow",
+                "grow",
+                "show",
+                "slow",
+                "blow",
+                "glow",
+                "flow",
+                "row",
+                "bowl",
+                "own",
+                "cow",
+                "now",
+                "how",
+                "wow",
+                "town",
+                "brown",
+                "crown",
+                "clown",
+                "gown",
+                "owl",
+                "growl",
+                "howl",
+                "frown"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-ive",
+              "-tive",
+              "-ative"
+            ],
+            "B": [
+              "-ive",
+              "-tive",
+              "-ative"
+            ],
+            "C": [
+              "-ive",
+              "-tive",
+              "-ative"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-29",
+          "label": "29",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "em",
+              "-ic",
+              "med"
+            ],
+            "B": [
+              "em",
+              "-ic",
+              "med"
+            ],
+            "C": [
+              "vict",
+              "-ic",
+              "med"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-30",
+          "label": "30",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "oo-2",
+              "label": "oo(2)",
+              "words": [
+                "moon",
+                "soon",
+                "room",
+                "zoo",
+                "boot",
+                "cool",
+                "pool",
+                "tool",
+                "spoon",
+                "broom",
+                "roof",
+                "tooth",
+                "book",
+                "cook",
+                "hook",
+                "took",
+                "foot",
+                "wood",
+                "hood",
+                "wool",
+                "stood",
+                "shook"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-hood",
+              "pas",
+              "-vade"
+            ],
+            "B": [
+              "-hood",
+              "pas",
+              "-vade"
+            ],
+            "C": [
+              "photo",
+              "vis",
+              "-hood"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-31",
+          "label": "31",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "-ful",
+              "di",
+              "pro"
+            ],
+            "B": [
+              "-ful",
+              "di",
+              "pro"
+            ],
+            "C": [
+              "-ful",
+              "sus",
+              "trans"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-32",
+          "label": "32",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "igh",
+              "label": "_igh",
+              "words": [
+                "high",
+                "sigh",
+                "night",
+                "light",
+                "right",
+                "sight",
+                "might",
+                "fight",
+                "tight",
+                "bright",
+                "flight",
+                "fright"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [
+              "-sion(2)",
+              "cir"
+            ],
+            "B": [
+              "-sion(2)",
+              "cir"
+            ],
+            "C": [
+              "-sion(2)",
+              "quad",
+              "circ"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-33",
+          "label": "33",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [
+              "-ture",
+              "oc",
+              "com"
+            ],
+            "B": [
+              "-ture",
+              "oc",
+              "com"
+            ],
+            "C": [
+              "-ture",
+              "dem",
+              "crim"
+            ]
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-34",
+          "label": "34",
+          "isReview": true,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-35",
+          "label": "35",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "ou",
+              "label": "ou_",
+              "words": [
+                "loud",
+                "cloud",
+                "proud",
+                "shout",
+                "sound",
+                "round",
+                "found",
+                "ground",
+                "mouth",
+                "south",
+                "house",
+                "mouse",
+                "count",
+                "pound",
+                "couch"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-36",
+          "label": "36",
+          "isReview": true,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-37",
+          "label": "37",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "oi",
+              "label": "oi_",
+              "words": [
+                "oil",
+                "boil",
+                "coil",
+                "foil",
+                "soil",
+                "coin",
+                "join",
+                "point",
+                "moist",
+                "joint",
+                "noise",
+                "spoil"
+              ]
+            },
+            {
+              "id": "oy",
+              "label": "_oy",
+              "words": [
+                "boy",
+                "toy",
+                "joy",
+                "soy",
+                "enjoy",
+                "annoy",
+                "oyster",
+                "cowboy",
+                "destroy"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-38",
+          "label": "38",
+          "isReview": true,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-39",
+          "label": "39",
+          "isReview": false,
+          "patterns": [
+            {
+              "id": "au",
+              "label": "au_",
+              "words": [
+                "haul",
+                "fault",
+                "launch",
+                "author",
+                "haunt",
+                "cause",
+                "pause",
+                "vault"
+              ]
+            },
+            {
+              "id": "aw",
+              "label": "aw",
+              "words": [
+                "paw",
+                "jaw",
+                "raw",
+                "law",
+                "claw",
+                "draw",
+                "straw",
+                "lawn",
+                "yawn",
+                "dawn",
+                "crawl",
+                "hawk",
+                "shawl"
+              ]
+            }
+          ],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-40",
+          "label": "40",
+          "isReview": true,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": ""
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-41",
+          "label": "41",
+          "isReview": true,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": "Introduce V/V Splits"
+        },
+        {
+          "type": "lesson",
+          "id": "challenge-42-75",
+          "label": "42–75",
+          "isReview": false,
+          "patterns": [],
+          "sightSyllables": {
+            "A": [],
+            "B": [],
+            "C": []
+          },
+          "strategy": "Practice with Grade-level Vocabulary",
+          "isPractice": true
+        }
+      ],
+      "syllableWords": {
+        "-able": [
+          "comfortable",
+          "valuable",
+          "breakable",
+          "capable",
+          "enjoyable",
+          "washable"
+        ],
+        "-al": [
+          "animal",
+          "signal",
+          "total",
+          "metal",
+          "normal",
+          "final"
+        ],
+        "-ance": [
+          "distance",
+          "balance",
+          "entrance",
+          "instance",
+          "importance"
+        ],
+        "-ative": [
+          "talkative",
+          "imaginative",
+          "negative",
+          "narrative"
+        ],
+        "-ble": [
+          "table",
+          "bubble",
+          "humble",
+          "tremble",
+          "stumble",
+          "fumble"
+        ],
+        "-dle": [
+          "candle",
+          "handle",
+          "middle",
+          "puddle",
+          "paddle",
+          "cradle"
+        ],
+        "-eer": [
+          "cheer",
+          "engineer",
+          "volunteer",
+          "pioneer",
+          "career"
+        ],
+        "-ence": [
+          "silence",
+          "science",
+          "presence",
+          "difference"
+        ],
+        "-ful": [
+          "helpful",
+          "careful",
+          "thankful",
+          "wonderful",
+          "colorful",
+          "playful"
+        ],
+        "-gle": [
+          "jungle",
+          "giggle",
+          "single",
+          "struggle",
+          "wiggle",
+          "tangle"
+        ],
+        "-hood": [
+          "childhood",
+          "neighborhood",
+          "brotherhood",
+          "adulthood"
+        ],
+        "-ible": [
+          "possible",
+          "terrible",
+          "visible",
+          "horrible",
+          "flexible",
+          "sensible"
+        ],
+        "-ic": [
+          "picnic",
+          "music",
+          "magic",
+          "traffic",
+          "plastic",
+          "comic"
+        ],
+        "-ious": [
+          "curious",
+          "serious",
+          "furious",
+          "delicious",
+          "obvious"
+        ],
+        "-ive": [
+          "active",
+          "massive",
+          "positive",
+          "festive",
+          "expensive"
+        ],
+        "-ize": [
+          "realize",
+          "organize",
+          "memorize",
+          "apologize",
+          "recognize"
+        ],
+        "-ly": [
+          "quickly",
+          "sadly",
+          "softly",
+          "friendly",
+          "safely",
+          "slowly"
+        ],
+        "-ous": [
+          "famous",
+          "nervous",
+          "dangerous",
+          "enormous",
+          "jealous"
+        ],
+        "-ple": [
+          "simple",
+          "sample",
+          "purple",
+          "apple",
+          "temple",
+          "example"
+        ],
+        "-scope": [
+          "microscope",
+          "telescope",
+          "periscope"
+        ],
+        "-ship": [
+          "friendship",
+          "hardship",
+          "membership",
+          "partnership",
+          "championship"
+        ],
+        "-sion(2)": [
+          "mansion",
+          "tension",
+          "mission",
+          "television",
+          "decision",
+          "explosion"
+        ],
+        "-ster": [
+          "monster",
+          "hamster",
+          "lobster",
+          "youngster"
+        ],
+        "-tion": [
+          "action",
+          "nation",
+          "station",
+          "motion",
+          "lotion",
+          "fraction",
+          "addition"
+        ],
+        "-tive": [
+          "creative",
+          "relative",
+          "detective",
+          "attentive",
+          "captive"
+        ],
+        "-tle": [
+          "little",
+          "bottle",
+          "kettle",
+          "battle",
+          "gentle",
+          "turtle"
+        ],
+        "-tude": [
+          "attitude",
+          "gratitude",
+          "altitude",
+          "latitude"
+        ],
+        "-ture": [
+          "picture",
+          "nature",
+          "future",
+          "adventure",
+          "capture",
+          "furniture"
+        ],
+        "-vade": [
+          "invade",
+          "evade",
+          "pervade"
+        ],
+        "ab": [
+          "absent",
+          "abrupt",
+          "absorb",
+          "abstract"
+        ],
+        "ac": [
+          "access",
+          "accept",
+          "accent",
+          "acrobat",
+          "active"
+        ],
+        "act": [
+          "action",
+          "actor",
+          "exact",
+          "react",
+          "active"
+        ],
+        "ad": [
+          "admit",
+          "address",
+          "adjust",
+          "advice",
+          "adventure",
+          "adult"
+        ],
+        "ant": [
+          "giant",
+          "servant",
+          "distant",
+          "instant",
+          "pleasant",
+          "important"
+        ],
+        "anti": [
+          "antifreeze",
+          "antibody",
+          "antiseptic"
+        ],
+        "auto": [
+          "automatic",
+          "autograph",
+          "automobile",
+          "autopilot"
+        ],
+        "bi": [
+          "bicycle",
+          "bilingual",
+          "biplane",
+          "biweekly"
+        ],
+        "cap": [
+          "capture",
+          "captain",
+          "capital",
+          "capsule"
+        ],
+        "cent": [
+          "center",
+          "percent",
+          "century",
+          "decent",
+          "centipede"
+        ],
+        "cir": [
+          "circle",
+          "circus",
+          "circuit",
+          "circular"
+        ],
+        "circ": [
+          "circumference",
+          "circulate",
+          "circumstance"
+        ],
+        "civ": [
+          "civil",
+          "civilian",
+          "civilization",
+          "civics"
+        ],
+        "co": [
+          "coworker",
+          "copilot",
+          "cooperate",
+          "coexist"
+        ],
+        "col": [
+          "collect",
+          "column",
+          "colony",
+          "collar",
+          "collide"
+        ],
+        "com": [
+          "complete",
+          "compare",
+          "computer",
+          "combine",
+          "comfort",
+          "compete"
+        ],
+        "con": [
+          "contest",
+          "control",
+          "connect",
+          "contain",
+          "consider",
+          "concern"
+        ],
+        "cred": [
+          "credit",
+          "incredible",
+          "credible"
+        ],
+        "crim": [
+          "criminal",
+          "crimson"
+        ],
+        "de": [
+          "defend",
+          "depend",
+          "decide",
+          "detect",
+          "demand",
+          "delay"
+        ],
+        "dem": [
+          "democracy",
+          "demonstrate",
+          "demolish"
+        ],
+        "dent": [
+          "dentist",
+          "accident",
+          "student",
+          "president",
+          "confident",
+          "evident"
+        ],
+        "di": [
+          "digest",
+          "direct",
+          "divide",
+          "dinosaur",
+          "diagram"
+        ],
+        "dict": [
+          "dictionary",
+          "predict",
+          "contradict",
+          "dictate",
+          "verdict"
+        ],
+        "dif": [
+          "different",
+          "difficult",
+          "differ",
+          "difference"
+        ],
+        "dis": [
+          "discover",
+          "distance",
+          "dislike",
+          "disagree",
+          "disappear",
+          "dishonest"
+        ],
+        "div": [
+          "divide",
+          "division",
+          "individual",
+          "dividend"
+        ],
+        "duct": [
+          "product",
+          "conduct",
+          "deduct",
+          "introduction"
+        ],
+        "em": [
+          "embrace",
+          "empire",
+          "employ",
+          "emperor",
+          "embark"
+        ],
+        "en": [
+          "enjoy",
+          "enter",
+          "enlarge",
+          "entire",
+          "enrich"
+        ],
+        "ent": [
+          "parent",
+          "student",
+          "absent",
+          "present",
+          "different"
+        ],
+        "er": [
+          "after",
+          "letter",
+          "butter",
+          "sister",
+          "winter",
+          "number"
+        ],
+        "est": [
+          "biggest",
+          "fastest",
+          "smallest",
+          "honest",
+          "forest",
+          "contest"
+        ],
+        "ex": [
+          "exit",
+          "expect",
+          "explain",
+          "explore",
+          "express",
+          "extra"
+        ],
+        "fac": [
+          "factory",
+          "factor",
+          "manufacture"
+        ],
+        "fore": [
+          "forecast",
+          "forehead",
+          "foresee",
+          "forearm",
+          "foreword"
+        ],
+        "frac": [
+          "fraction",
+          "fracture",
+          "fractions"
+        ],
+        "graph": [
+          "paragraph",
+          "photograph",
+          "autograph",
+          "graphic"
+        ],
+        "grat": [
+          "gratitude",
+          "congratulate",
+          "gratify"
+        ],
+        "hos": [
+          "hospital",
+          "hostile",
+          "hospitable"
+        ],
+        "il": [
+          "illegal",
+          "illustrate",
+          "illusion"
+        ],
+        "im": [
+          "impact",
+          "import",
+          "improve",
+          "impress",
+          "impossible"
+        ],
+        "in": [
+          "insect",
+          "inside",
+          "invent",
+          "instead",
+          "index",
+          "insist"
+        ],
+        "ing": [
+          "during",
+          "morning",
+          "evening",
+          "building"
+        ],
+        "inter": [
+          "interest",
+          "internet",
+          "interrupt",
+          "interview"
+        ],
+        "ish": [
+          "selfish",
+          "finish",
+          "publish",
+          "polish",
+          "foolish",
+          "childish"
+        ],
+        "ist": [
+          "artist",
+          "dentist",
+          "scientist",
+          "tourist"
+        ],
+        "ject": [
+          "object",
+          "project",
+          "reject",
+          "subject",
+          "inject",
+          "eject"
+        ],
+        "less": [
+          "helpless",
+          "endless",
+          "careless",
+          "useless",
+          "spotless",
+          "harmless"
+        ],
+        "mand": [
+          "command",
+          "demand",
+          "reprimand"
+        ],
+        "med": [
+          "medal",
+          "medicine",
+          "medium",
+          "remedy",
+          "medical"
+        ],
+        "mem": [
+          "member",
+          "memory",
+          "memo",
+          "remember",
+          "membership"
+        ],
+        "ment": [
+          "moment",
+          "payment",
+          "comment",
+          "segment",
+          "cement",
+          "basement"
+        ],
+        "meter": [
+          "thermometer",
+          "kilometer",
+          "centimeter",
+          "diameter"
+        ],
+        "micro": [
+          "microscope",
+          "microphone",
+          "microwave",
+          "microchip"
+        ],
+        "mid": [
+          "midnight",
+          "midway",
+          "midst",
+          "midsummer",
+          "midweek"
+        ],
+        "min": [
+          "minute",
+          "minimum",
+          "minor",
+          "minus"
+        ],
+        "mis": [
+          "mistake",
+          "misspell",
+          "mislead",
+          "mismatch",
+          "misplace"
+        ],
+        "mod": [
+          "model",
+          "modern",
+          "modest",
+          "modify"
+        ],
+        "multi": [
+          "multiply",
+          "multiple",
+          "multicolor",
+          "multimedia"
+        ],
+        "nect": [
+          "connect",
+          "connected",
+          "disconnect",
+          "connection"
+        ],
+        "ness": [
+          "kindness",
+          "sadness",
+          "darkness",
+          "illness",
+          "sickness",
+          "happiness"
+        ],
+        "non": [
+          "nonfiction",
+          "nonsense",
+          "nonstop"
+        ],
+        "ob": [
+          "object",
+          "obtain",
+          "obvious",
+          "observe",
+          "obstacle"
+        ],
+        "oc": [
+          "occur",
+          "octopus",
+          "occasion",
+          "occupy"
+        ],
+        "pas": [
+          "passenger",
+          "compass",
+          "pastel",
+          "passage"
+        ],
+        "pel": [
+          "expel",
+          "propel",
+          "compel",
+          "repel",
+          "pellet"
+        ],
+        "pend": [
+          "depend",
+          "spend",
+          "pendulum",
+          "independent",
+          "suspend"
+        ],
+        "per": [
+          "person",
+          "perfect",
+          "permit",
+          "perhaps",
+          "perform",
+          "percent"
+        ],
+        "phon": [
+          "phonics",
+          "telephone",
+          "symphony",
+          "microphone",
+          "saxophone"
+        ],
+        "photo": [
+          "photograph",
+          "photocopy",
+          "photography",
+          "photosynthesis"
+        ],
+        "pic": [
+          "picnic",
+          "picture",
+          "topic",
+          "epic",
+          "pickle"
+        ],
+        "por": [
+          "porcupine",
+          "important",
+          "portion"
+        ],
+        "port": [
+          "airport",
+          "report",
+          "support",
+          "transport",
+          "import",
+          "export"
+        ],
+        "pre": [
+          "preview",
+          "prepare",
+          "predict",
+          "prevent",
+          "prefix",
+          "preschool"
+        ],
+        "pro": [
+          "protect",
+          "produce",
+          "program",
+          "promise",
+          "provide"
+        ],
+        "prob": [
+          "problem",
+          "probably"
+        ],
+        "quad": [
+          "quadrant",
+          "quadrilateral",
+          "quadruple"
+        ],
+        "quent": [
+          "frequent",
+          "frequently",
+          "infrequent"
+        ],
+        "re": [
+          "return",
+          "repeat",
+          "remind",
+          "reply",
+          "refill",
+          "retell"
+        ],
+        "scan": [
+          "scanner",
+          "scanned",
+          "scanning",
+          "scandal"
+        ],
+        "script": [
+          "description",
+          "prescription",
+          "manuscript",
+          "subscription"
+        ],
+        "semi": [
+          "semicircle",
+          "semifinal",
+          "semicolon",
+          "semisweet"
+        ],
+        "spec": [
+          "inspect",
+          "respect",
+          "spectator",
+          "special",
+          "specific"
+        ],
+        "sub": [
+          "subject",
+          "subtract",
+          "submit",
+          "subway",
+          "suburb",
+          "submarine"
+        ],
+        "sus": [
+          "suspect",
+          "suspend",
+          "sustain",
+          "suspense"
+        ],
+        "sym": [
+          "symbol",
+          "symptom",
+          "sympathy",
+          "symphony"
+        ],
+        "syn": [
+          "synonym",
+          "syntax",
+          "synthetic"
+        ],
+        "sys": [
+          "system",
+          "systems",
+          "systematic"
+        ],
+        "trans": [
+          "transport",
+          "transfer",
+          "translate",
+          "transform",
+          "transparent"
+        ],
+        "tri": [
+          "triangle",
+          "tricycle",
+          "trio",
+          "tripod"
+        ],
+        "ult": [
+          "result",
+          "adult",
+          "consult",
+          "ultimate"
+        ],
+        "un": [
+          "unlock",
+          "unpack",
+          "untie",
+          "unhappy",
+          "unless",
+          "until"
+        ],
+        "vent": [
+          "invent",
+          "event",
+          "prevent",
+          "adventure",
+          "inventor"
+        ],
+        "ves": [
+          "vessel",
+          "harvest",
+          "investigate"
+        ],
+        "vict": [
+          "victory",
+          "victorious",
+          "convict"
+        ],
+        "vid": [
+          "video",
+          "vivid",
+          "provide",
+          "evidence"
+        ],
+        "vill": [
+          "village",
+          "villain",
+          "villager"
+        ],
+        "vis": [
+          "visit",
+          "visible",
+          "visual",
+          "revise"
+        ]
+      }
+    }
+  ]
+}

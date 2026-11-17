@@ -1,9 +1,9 @@
-// NEW FILE
 // Connects the app to your Firebase project.
 // The settings come from the .env file (names starting with VITE_).
 
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider } from 'firebase/auth'
+import { getFirestore } from 'firebase/firestore' // NEW
 import { SCHOOL_DOMAIN } from './config.js'
 
 const firebaseConfig = {
@@ -24,6 +24,7 @@ if (!firebaseConfig.apiKey) {
 
 export const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
+export const db = getFirestore(app) // NEW: the Firestore database
 
 // The Google sign-in pop-up.
 // "hd" SUGGESTS school accounts in the account picker. It does NOT block other

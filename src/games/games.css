@@ -1,0 +1,800 @@
+/* NEW FILE: styles for the game pages and games.
+   Colors come from the variables in index.css (:root). */
+
+/* ===== Choosing words (the tabs are also used on My Games) ===== */
+.level-tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin: 1rem 0 0.75rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.level-tab {
+  font: inherit;
+  padding: 0.5rem 1.1rem;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  background: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.level-tab.is-active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+  font-weight: 600;
+}
+
+.challenge-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.challenge-options .divider {
+  width: 1px;
+  height: 1.2rem;
+  background: var(--color-border);
+}
+
+.lesson-picker-tools {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.lesson-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 55vh;
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.lesson-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.95rem;
+}
+
+.lesson-row.is-checked {
+  background: var(--color-primary-bg);
+}
+
+.lesson-main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+
+.lesson-name {
+  font-weight: 600;
+  min-width: 6.5rem;
+}
+
+.lesson-sounds {
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+.lesson-review {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.lesson-extra {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.expand-button {
+  font: inherit;
+  width: 2rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.lesson-options {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.4rem 0 0.2rem 1.8rem;
+}
+
+.option-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-bg);
+  cursor: pointer;
+}
+
+.mastery-row {
+  background: var(--color-surface);
+  justify-content: space-between;
+}
+
+.mastery-label {
+  font-weight: 700;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.link-button {
+  font: inherit;
+  font-size: 0.9rem;
+  border: none;
+  background: none;
+  padding: 0;
+  color: var(--color-primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.word-list-editor {
+  margin-top: 1.25rem;
+}
+
+.word-list-editor h3 {
+  margin-bottom: 0.5rem;
+}
+
+.count {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.word-chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  max-height: 14rem;
+  overflow-y: auto;
+}
+
+.word-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.15rem 0.2rem 0.15rem 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+}
+
+.word-chip.is-added {
+  border-color: var(--color-primary);
+}
+
+.word-chip button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0 0.3rem;
+}
+
+.add-words {
+  margin-top: 0.75rem;
+}
+
+.add-words label {
+  font-weight: 600;
+}
+
+.add-words-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.add-words-row input {
+  flex: 1;
+  max-width: 28rem;
+  font: inherit;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.small-note {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.make-game-bar {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0.75rem 0;
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+}
+
+/* ===== Playing: shared ===== */
+.game-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.game-toolbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.game-subtitle {
+  flex: 1;
+  color: var(--color-text-muted);
+}
+
+.game-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.game-controls select,
+.game-controls input[type='number'] {
+  font: inherit;
+  padding: 0.2rem 0.3rem;
+}
+
+.game-controls input[type='number'] {
+  width: 4rem;
+}
+
+.roll-message {
+  font-size: 1.1rem;
+  font-weight: 600;
+  min-height: 1.6rem;
+}
+
+.roll-message.is-winner {
+  color: var(--color-primary);
+}
+
+.dice-roller {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.die-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.die-body {
+  fill: #ffffff;
+  stroke: #1f2328;
+  stroke-width: 4;
+}
+
+.die-pip {
+  fill: #1f2328;
+}
+
+.die-hint {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.marker-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.marker-swatch {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
+.marker-swatch.is-selected {
+  border-color: var(--color-text);
+}
+
+/* Marker colors (also used for Ups and Downs players) */
+.marker-red { background: #d93025; }
+.marker-blue { background: #1a5fd0; }
+.marker-green { background: #188038; }
+.marker-purple { background: #8430ce; }
+
+/* A marker dropped on a word: a see-through dot so the word still shows */
+.marker {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* ===== Roll and Read ===== */
+.rr-board {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.rr-board th {
+  width: 60px;
+  padding: 4px;
+}
+
+.rr-board td {
+  border: 2px solid #1f2328;
+  padding: 0;
+}
+
+.rr-board tr.is-rolled td {
+  background: #fff4c2;
+}
+
+.word-cell {
+  position: relative;
+  width: 100%;
+  min-height: 3.6rem;
+  font: inherit;
+  font-size: 1.6rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ===== Bingo ===== */
+.bingo-play {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 2fr;
+  gap: 1.5rem;
+}
+
+.bingo-caller {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bingo-caller h2 {
+  margin: 0;
+}
+
+.called-word {
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.5rem;
+  background: var(--color-bg);
+  border-radius: var(--radius);
+}
+
+.called-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.called-list li {
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-bg);
+  font-size: 0.9rem;
+}
+
+.card-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.bingo-card-view .marker-picker {
+  margin-bottom: 0.5rem;
+}
+
+.bingo-card {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.bingo-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+}
+
+.card-number {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--color-text-muted);
+}
+
+.bingo-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--size), 1fr);
+  border: 2px solid #1f2328;
+}
+
+.bingo-cell {
+  position: relative;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  font-size: 1.3rem;
+  border: 1px solid #1f2328;
+  background: #ffffff;
+  padding: 2px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.bingo-cell.is-free {
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: var(--color-surface);
+}
+
+.caller-checklist {
+  list-style: none;
+  padding: 0;
+  columns: 4;
+  font-size: 1.1rem;
+}
+
+/* ===== Tic Tac Toe ===== */
+.ttt-boards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.ttt-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ttt-cell {
+  position: relative;
+  aspect-ratio: 1;
+  font: inherit;
+  font-size: 1.4rem;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Only inner lines, like a hand-drawn board */
+.ttt-cell:nth-child(-n + 6) { border-bottom: 3px solid #1f2328; }
+.ttt-cell:not(:nth-child(3n)) { border-right: 3px solid #1f2328; }
+
+.ttt-mark {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.ttt-X { color: #d93025; }
+.ttt-O { color: #1a5fd0; }
+
+/* ===== Ups and Downs ===== */
+.ud-board {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  grid-template-rows: repeat(var(--rows), 1fr);
+  aspect-ratio: 10 / 6;
+  border: 2px solid #1f2328;
+}
+
+.ud-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1f2328;
+  background: #ffffff;
+  font-size: 1.35rem;
+}
+
+.ud-cell.is-alt {
+  background: #eef3fb;
+}
+
+.ud-cell.is-end {
+  font-weight: 800;
+  background: #fff4c2;
+}
+
+.ud-tokens {
+  position: absolute;
+  inset: 4px auto auto 4px;
+  display: flex;
+  gap: 2px;
+}
+
+.marker.token {
+  position: static;
+  transform: none;
+  width: 1rem;
+  height: 1rem;
+  opacity: 1;
+  border: 2px solid #ffffff;
+}
+
+.ud-arrows {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.ud-up,
+.ud-down {
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.ud-up { stroke: #188038; }
+.ud-down { stroke: #d93025; stroke-dasharray: 10 6; }
+.ud-head { fill: #1f2328; }
+
+.ud-key {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* ===== Word Quiz Board ===== */
+.scoreboard {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.score strong {
+  font-size: 1.6rem;
+}
+
+.quiz-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cats), 1fr);
+  gap: 0.5rem;
+}
+
+.quiz-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quiz-category {
+  min-height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #ffffff;
+  background: #1d3f7a;
+  border-radius: var(--radius);
+}
+
+.quiz-cell {
+  min-height: 4rem;
+  font: inherit;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffd84a;
+  background: var(--color-primary);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.quiz-cell.is-used {
+  background: var(--color-surface);
+  cursor: default;
+}
+
+.quiz-category-input,
+.quiz-word-input {
+  font: inherit;
+  min-height: 3rem;
+  padding: 0.3rem;
+  text-align: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.quiz-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.quiz-overlay-box {
+  width: min(90vw, 760px);
+  padding: 2rem;
+  text-align: center;
+  background: var(--color-bg);
+  border-radius: var(--radius);
+}
+
+.quiz-overlay-points {
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.quiz-overlay-word {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 1rem 0 1.5rem;
+  overflow-wrap: anywhere;
+}
+
+.quiz-overlay-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* ===== Printing ===== */
+.print-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.75rem;
+  font-size: 12pt;
+}
+
+.print-subtitle {
+  color: #444444;
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
+
+@media print {
+  .print-header.print-only {
+    display: flex;
+  }
+
+  .print-page {
+    break-after: page;
+  }
+
+  .print-page:last-child {
+    break-after: auto;
+  }
+
+  .marker,
+  .ttt-mark,
+  .marker.token {
+    display: none;
+  }
+
+  .rr-board tr.is-rolled td {
+    background: none;
+  }
+
+  .word-cell {
+    font-size: 20pt;
+    min-height: 1.35in;
+  }
+
+  .bingo-card {
+    max-width: 4in;
+    margin: 0 auto 0.25in;
+    break-inside: avoid;
+  }
+
+  .bingo-title {
+    font-size: 16pt;
+  }
+
+  /* smaller words on bigger cards: 3x3 about 19pt, 4x4 14pt, 5x5 11pt */
+  .bingo-cell {
+    font-size: calc(56pt / var(--size));
+  }
+
+  .ttt-boards {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5in;
+  }
+
+  .ttt-cell {
+    font-size: 16pt;
+  }
+
+  .ud-cell {
+    font-size: 15pt;
+  }
+
+  .ud-cell.is-alt {
+    background: #ffffff;
+  }
+
+  /* Ask the browser to print the light fills and arrow colors */
+  .ud-board,
+  .bingo-cell.is-free {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

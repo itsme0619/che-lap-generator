@@ -11,8 +11,8 @@
   --color-border: #d5d9de;      /* lines around cards */
   --color-primary: #2a5db0;     /* links and active nav */
   --color-primary-bg: #e8effa;  /* light highlight behind active nav */
-  --color-error: #a1261b;       /* error message text */ /* NEW */
-  --color-error-bg: #fdecea;    /* error message background */ /* NEW */
+  --color-error: #a1261b;       /* error message text */
+  --color-error-bg: #fdecea;    /* error message background */
 
   --font-body: system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
   --radius: 8px;                /* how rounded corners are */
@@ -162,88 +162,244 @@ a.card:hover {
   font-style: italic;
 }
 
-/* ===== Buttons ===== */ /* NEW */
-.button { /* NEW */
+/* ===== Buttons ===== */
+.button {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: var(--color-primary);
+}
+
+.button-primary {
+  font-size: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
+}
+
+/* ===== Signed-in user in the header ===== */
+.user-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-email {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+/* ===== Welcome (signed-out) page ===== */
+.welcome {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: var(--color-surface);
+}
+
+.welcome-box {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem;
+  text-align: center;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.welcome-box h1 {
+  margin-top: 0;
+}
+
+.welcome-note {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.welcome-footer {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.error-message {
+  margin-top: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--radius);
+  background: var(--color-error-bg);
+  color: var(--color-error);
+  font-size: 0.9rem;
+}
+
+.loading {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+/* ===== Admin page ===== */
+.simple-table {
+  border-collapse: collapse;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.simple-table th,
+.simple-table td {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.simple-table th {
+  background: var(--color-surface);
+}
+
+.upload-preview {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.status-message {
+  font-weight: 600;
+}
+
+/* ===== Printing: hide the app around the game ===== */
+@page {
+  size: letter;
+  margin: 0.5in;
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .no-print {
+    display: none !important;
+  }
+
+  .site-main {
+    max-width: none;
+    padding: 0;
+  }
+
+  :root {
+    font-size: 12pt;
+  }
+}
+
+/* ===== Save dialog ===== */ /* NEW */
+.dialog-backdrop { /* NEW */
+  position: fixed; /* NEW */
+  inset: 0; /* NEW */
+  z-index: 20; /* NEW */
+  display: flex; /* NEW */
+  align-items: center; /* NEW */
+  justify-content: center; /* NEW */
+  background: rgba(0, 0, 0, 0.45); /* NEW */
+} /* NEW */
+
+.dialog-box { /* NEW */
+  width: min(92vw, 520px); /* NEW */
+  padding: 1.5rem; /* NEW */
+  display: flex; /* NEW */
+  flex-direction: column; /* NEW */
+  gap: 0.5rem; /* NEW */
+  background: var(--color-bg); /* NEW */
+  border-radius: var(--radius); /* NEW */
+} /* NEW */
+
+.dialog-box h2 { /* NEW */
+  margin: 0 0 0.5rem; /* NEW */
+} /* NEW */
+
+.dialog-box input[type='text'] { /* NEW */
   font: inherit; /* NEW */
-  font-size: 0.9rem; /* NEW */
-  padding: 0.4rem 0.9rem; /* NEW */
+  padding: 0.4rem 0.6rem; /* NEW */
   border: 1px solid var(--color-border); /* NEW */
   border-radius: var(--radius); /* NEW */
-  background: var(--color-bg); /* NEW */
-  color: var(--color-text); /* NEW */
-  cursor: pointer; /* NEW */
 } /* NEW */
 
-.button:hover { /* NEW */
-  border-color: var(--color-primary); /* NEW */
+.dialog-buttons { /* NEW */
+  display: flex; /* NEW */
+  flex-wrap: wrap; /* NEW */
+  gap: 0.5rem; /* NEW */
+  margin-top: 0.5rem; /* NEW */
 } /* NEW */
 
-.button-primary { /* NEW */
-  font-size: 1rem; /* NEW */
-  padding: 0.6rem 1.4rem; /* NEW */
-  background: var(--color-primary); /* NEW */
-  border-color: var(--color-primary); /* NEW */
+.checkbox-line { /* NEW */
+  display: inline-flex; /* NEW */
+  align-items: center; /* NEW */
+  gap: 0.4rem; /* NEW */
+} /* NEW */
+
+.button-danger { /* NEW */
+  background: var(--color-error); /* NEW */
+  border-color: var(--color-error); /* NEW */
   color: #ffffff; /* NEW */
 } /* NEW */
 
-/* ===== Signed-in user in the header ===== */ /* NEW */
-.user-box { /* NEW */
+/* ===== My Games list ===== */ /* NEW */
+.saved-list { /* NEW */
+  list-style: none; /* NEW */
+  padding: 0; /* NEW */
+  margin: 0; /* NEW */
+  border: 1px solid var(--color-border); /* NEW */
+  border-radius: var(--radius); /* NEW */
+} /* NEW */
+
+.saved-row { /* NEW */
   display: flex; /* NEW */
+  flex-wrap: wrap; /* NEW */
+  justify-content: space-between; /* NEW */
+  align-items: center; /* NEW */
+  gap: 0.75rem; /* NEW */
+  padding: 0.75rem 1rem; /* NEW */
+  border-bottom: 1px solid var(--color-border); /* NEW */
+} /* NEW */
+
+.saved-row:last-child { /* NEW */
+  border-bottom: none; /* NEW */
+} /* NEW */
+
+.saved-main { /* NEW */
+  display: flex; /* NEW */
+  flex-direction: column; /* NEW */
+  gap: 0.15rem; /* NEW */
+} /* NEW */
+
+.saved-name { /* NEW */
+  font-weight: 600; /* NEW */
+  font-size: 1.05rem; /* NEW */
+} /* NEW */
+
+.saved-details { /* NEW */
+  font-size: 0.85rem; /* NEW */
+  color: var(--color-text-muted); /* NEW */
+} /* NEW */
+
+.saved-actions, /* NEW */
+.rename-form { /* NEW */
+  display: flex; /* NEW */
+  flex-wrap: wrap; /* NEW */
   align-items: center; /* NEW */
   gap: 0.5rem; /* NEW */
 } /* NEW */
 
-.user-email { /* NEW */
-  font-size: 0.85rem; /* NEW */
-  color: var(--color-text-muted); /* NEW */
-} /* NEW */
-
-/* ===== Welcome (signed-out) page ===== */ /* NEW */
-.welcome { /* NEW */
-  min-height: 100vh; /* NEW */
-  display: flex; /* NEW */
-  flex-direction: column; /* NEW */
-  align-items: center; /* NEW */
-  justify-content: center; /* NEW */
-  padding: 1.5rem; /* NEW */
-  background: var(--color-surface); /* NEW */
-} /* NEW */
-
-.welcome-box { /* NEW */
-  width: 100%; /* NEW */
-  max-width: 420px; /* NEW */
-  padding: 2rem; /* NEW */
-  text-align: center; /* NEW */
-  background: var(--color-bg); /* NEW */
+.rename-form input { /* NEW */
+  font: inherit; /* NEW */
+  padding: 0.3rem 0.5rem; /* NEW */
   border: 1px solid var(--color-border); /* NEW */
   border-radius: var(--radius); /* NEW */
-} /* NEW */
-
-.welcome-box h1 { /* NEW */
-  margin-top: 0; /* NEW */
-} /* NEW */
-
-.welcome-note { /* NEW */
-  font-size: 0.85rem; /* NEW */
-  color: var(--color-text-muted); /* NEW */
-} /* NEW */
-
-.welcome-footer { /* NEW */
-  font-size: 0.8rem; /* NEW */
-  color: var(--color-text-muted); /* NEW */
-} /* NEW */
-
-.error-message { /* NEW */
-  margin-top: 1rem; /* NEW */
-  padding: 0.6rem 0.8rem; /* NEW */
-  border-radius: var(--radius); /* NEW */
-  background: var(--color-error-bg); /* NEW */
-  color: var(--color-error); /* NEW */
-  font-size: 0.9rem; /* NEW */
-} /* NEW */
-
-.loading { /* NEW */
-  padding: 2rem; /* NEW */
-  text-align: center; /* NEW */
-  color: var(--color-text-muted); /* NEW */
 } /* NEW */

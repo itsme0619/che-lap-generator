@@ -1,0 +1,52 @@
+rules_version = '2';
+
+// Security rules for CHE LAP Generator.
+// Firebase checks these on its own servers before any read or write.
+// Anything not allowed here is blocked.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // A signed-in, verified @g.rentonschools.us account.
+    function isSchoolUser() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower().matches('.*@g[.]rentonschools[.]us$');
+    }
+
+    // The admin (also must be a verified school account).
+    function isAdmin() {
+      return isSchoolUser()
+        && request.auth.token.email.lower() == 'anagasak@g.rentonschools.us';
+    }
+
+    // The SIPPS lesson data: one document per level.
+    match /curriculum/{levelId} {
+      allow read: if isSchoolUser();
+      allow write: if isAdmin()
+        && levelId in ['beginning', 'extension', 'challenge'];
+    }
+
+    // NEW: saved games. Each teacher owns theirs; shared ones can be opened by any school account.
+    function isValidGame(game) { // NEW
+      return game.name is string // NEW
+        && game.name.size() > 0 && game.name.size() <= 100 // NEW
+        && game.gameType in ['roll-and-read', 'bingo', 'tic-tac-toe', 'ups-and-downs', 'word-quiz-board'] // NEW
+        && game.shared is bool // NEW
+        && game.words is list && game.words.size() <= 1000 // NEW
+        && game.ownerUid == request.auth.uid // NEW
+        && game.ownerEmail == request.auth.token.email; // NEW
+    } // NEW
+
+    match /savedGames/{gameId} { // NEW
+      allow read: if isSchoolUser() // NEW
+        && (resource.data.ownerUid == request.auth.uid || resource.data.shared == true); // NEW
+      allow create: if isSchoolUser() && isValidGame(request.resource.data); // NEW
+      allow update: if isSchoolUser() // NEW
+        && resource.data.ownerUid == request.auth.uid // NEW
+        && isValidGame(request.resource.data); // NEW
+      allow delete: if isSchoolUser() && resource.data.ownerUid == request.auth.uid; // NEW
+    } // NEW
+
+    // Everything else stays locked.
+  }
+}

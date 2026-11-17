@@ -2,7 +2,8 @@
 // <Outlet /> is the spot where the current page appears.
 
 import { NavLink, Outlet } from 'react-router'
-import { useAuth } from '../auth/useAuth.js' // NEW
+import { useAuth } from '../auth/useAuth.js'
+import { isAdminUser } from '../config.js' // NEW
 
 // The nav links, in order. Adding a page to the nav later = adding one line here.
 const navLinks = [
@@ -14,7 +15,9 @@ const navLinks = [
 ]
 
 function Layout() {
-  const { user, signOutUser } = useAuth() // NEW
+  const { user, signOutUser } = useAuth()
+  // NEW: the admin also gets an Admin link
+  const links = isAdminUser(user) ? [...navLinks, { to: '/admin', label: 'Admin' }] : navLinks
 
   return (
     <div className="layout">
@@ -23,14 +26,14 @@ function Layout() {
           CHE LAP Generator
         </NavLink>
         <nav className="site-nav" aria-label="Main">
-          {navLinks.map((link) => (
+          {links.map((link) => ( // NEW: "links" instead of "navLinks"
             // NavLink adds the "active" class to the link for the page you're on
             <NavLink key={link.to} to={link.to} end={link.to === '/'}>
               {link.label}
             </NavLink>
           ))}
         </nav>
-        {/* NEW: who's signed in + sign out */}
+        {/* who's signed in + sign out */}
         <div className="user-box">
           <span className="user-email">{user.email}</span>
           <button type="button" className="button" onClick={signOutUser}>
